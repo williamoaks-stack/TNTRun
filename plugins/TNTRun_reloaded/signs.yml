@@ -1,0 +1,25 @@
+arenas:
+  Tube:
+    '0':
+      x: 145
+      y: 5
+      z: 41
+      world: spigot_1_13_2_122858
+  Norlan: {}
+  Sezlot: {}
+  Azwan: {}
+  Deslot: {}
+  Cave: {}
+  Totem: {}
+  Dena: {}
+  Blasky: {}
+  Quarent: {}
+  Mersha: {}
+  Freeze: {}
+  Oslow: {}
+leaderboards:
+  '0':
+    x: 145
+    y: 5
+    z: 42
+    world: spigot_1_13_2_122858

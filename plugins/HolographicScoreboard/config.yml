@@ -1,0 +1,14 @@
+# How long time after the plugin has been enabled (during startup) should it start
+# refreshing scoreboards?
+boards:
+  Wins:
+    command: trconsole leaderboard
+    interval: 2m
+    sender: console
+    filter: []
+    delay: 5s
+    location:
+      world: spigot_1_13_2_122858
+      x: -217.66925750040735
+      y: 29.62000000476837
+      z: 284.6106573257306

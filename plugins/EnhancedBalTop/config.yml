@@ -1,0 +1,50 @@
+enable: true
+checkupdates: true
+displayuuid: true
+cmdaliases:
+- 'ebaltop'
+- 'ebt'
+- 'bt'
+deftopn: 10
+pagesize: 10
+excludepermnode: EnhancedBalTop.excludeplayer
+usemoneydenominations: true
+decimalplaces: 2
+dateformat: dd-MM-yyyy HH:mm
+excludedays: 30
+placeholderempty: ''
+header:
+- '&e=&6-&e=&6-&e=&6-&e=&6-&e=&6-&e=&6-&e=&6-&e=&6-&e=&6-&e=&6-&e=&6-&e=&6-&e=&6-&e=&6-&e=&6-&e=&6-&e=&6-&e=&6-&e=&6-&e=&6-&e=&6-&e=&6-&e=&6-&e=&6-&e=&6-&e=&6-&e=&6-&e=&6-&e=&6-&e=&6-&e=&6-&e='
+- '&4TNTRun &5{date}'
+- '&6Top &a{topnbal} &6Coins'
+- '&6High Bal: &e{maxbalplayer}&e - &a$&f{maxbalvalue}'
+- '&6Low Bal: &e{minbalplayer}&e - &a$&f{minbalvalue}'
+- '&e=&6-&e=&6-&e=&6-&e=&6-&e=&6-&e=&6-&e=&6-&e=&6-&e=&6-&e=&6-&e=&6-&e=&6-&e=&6-&e=&6-&e=&6-&e=&6-&e=&6-&e=&6-&e=&6-&e=&6-&e=&6-&e=&6-&e=&6-&e=&6-&e=&6-&e=&6-&e=&6-&e=&6-&e=&6-&e=&6-&e=&6-&e=' 
+detail: 
+- '&6{lineno}: &2&l{player} &6Has &3&l{balance} &aCoins'
+footer: 
+- '&e---- Page &6{pageno} &eOf &6{totalpages} &e----'
+holotopn: 10
+holopagesize: 10
+holoupdateinterval: 10
+#
+# Interval (in ticks) online player balances are updated. 
+# Default 2 secs
+# Do Not set too low if you usual online user volume is high, as this will # lag your server!
+#
+updateonlinebalinterval:  40
+#
+# Interval (in ticks) offline player balances are updated.
+# Default 20 secs 
+# Do Not set too low as this will lag your server!
+#
+updateofflinebalinterval: 400
+#
+# Interval (in ticks) All Player Balances are checekd and sorted if 
+# necessary!
+# Do Not set too low as this will lag your server!
+# Default every 5 secs
+#
+sortbalinterval: 100
+#
+excludedplayers: []
