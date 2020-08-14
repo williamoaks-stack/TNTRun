@@ -10,9 +10,11 @@ UseRankInChat:
   usegroup: true
   useprefix: false
 menu:
+  includedisabled: false
   item: TNT
   panecolor: LIGHT_BLUE
 special:
+  UseDoubleJumpPermissions: false
   UseBossBar: true
   BossBarColor: RANDOM
   UseTitle: true
@@ -56,25 +58,32 @@ leaderboard:
   maxentries: 10
 items:
   vote:
+    slot: 0
     use: true
     material: DIAMOND
     name: '&2&lVote'
   info:
+    slot: 1
     use: false
     material: EMERALD
     name: '&2&lInfo'
   shop:
+    slot: 2
     use: true
     material: NETHER_STAR
     name: '&2&lShop'
   stats:
+    slot: 3
     use: true
     material: REDSTONE
     name: '&2&lStats'
   leave:
+    use: true
+    slot: 8
     material: GREEN_BED
     name: '&2&lLeave'
   heads:
+    slot: 4
     use: true
     material: GLOWSTONE_DUST
     name: '&e&lHeads'
@@ -102,6 +111,8 @@ scoreboard:
   - '&fEnd in: &c&l{LIMIT}'
 database: file
 MySQL:
+  table: stats
+  useSSL: false
   host: host
   port: 12345
   name: tntrun
@@ -119,3 +130,8 @@ doublejumps: {}
 freedoublejumps:
   enabled: false
   amount: 10
+bungeecord:
+  enabled: false
+  hub: lobby
+  useMOTD: true
+  stopserver: false

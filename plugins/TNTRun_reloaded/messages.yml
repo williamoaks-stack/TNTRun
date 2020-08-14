@@ -1,5 +1,6 @@
-trprefix: '&7[&6TNTRun_reloaded&7]'
-menutitle: '&1TNTRun_reloaded Arenas'
+trprefix: '&7[&6TNTRun&7]'
+menutitle: '&1TNTRun Arenas'
+menuarenaname: '&a{ARENA}'
 menutext: '&5Players:&6'
 menufee: '&5Join Fee: &6{FEE}'
 nopermission: '&c You don''t have permission to do this'
@@ -9,6 +10,7 @@ teleporttolobby: '&7 Teleported to lobby'
 arenanotexist: '&c Arena &6{ARENA}&c doesn''t exist'
 noarenas: '&c There are no arenas available to join'
 arenanotdisabled: '&c Please disable arena: &6/trsetup disable {ARENA}'
+arenanospectatorspawn: '&c No spectator spawn set for arena &6{ARENA}'
 availablearenas: '&7 Available arenas:&r '
 availablekits: '&7 Available kits:&r '
 arenawolrdna: '&7 Arena world is not loaded'
@@ -24,15 +26,19 @@ signcreate: '&7 Sign successfully created'
 signremove: '&7 Sign successfully removed'
 arenafee: '&7 You have been charged &6{FEE} &7to enter the arena'
 arenanofee: '&c You do not have the required fee to enter the arena'
+arenawaiting: '&6 Arena is waiting'
 playerscountinarena: '&6 Current number of players in arena: {COUNT} players'
 limitreached: '&7 Arena is full.'
 playerjoinedtoplayer: '&7 You joined the arena'
 playerjoinedtoothers: '&7 Player &6{PLAYER} &7joined the arena'
+playerjoinedasspectator: '&7 You joined arena &6{ARENA} &7as a spectator'
 playerlefttoplayer: '&7 You left the arena'
 playerlefttoothers: '&7 Player &6{PLAYER} &7left the game'
 playervotedforstart: '&f You voted to force-start the game'
 playeralreadyvotedforstart: '&c You have already voted'
+playercannotvote: '&c You cannot vote to force-start the arena'
 arenastarted: '&7 Arena started. Time limit is {TIMELIMIT} seconds'
+arenanolimit: '&7 Arena started. No time limit'
 arenacountdown: '&7 Arena starts in {COUNTDOWN} seconds'
 arenatimeout: '&7 Time is up. Ending game'
 playerwontoplayer: '&7 You won the game!'
@@ -46,6 +52,7 @@ playerkit: '&7 You have been given kit &6{KIT}'
 playersrequiredtostart: '&c There must be at least 2 players in the arena to force-start'
 notenoughtmoney: '&c You need {MONEY} coins to buy this item'
 alreadyboughtitem: '&c You have already bought a shop item'
+shopnostock: '&c This item is currently out of stock'
 maxdoublejumpsexceeded: '&c You cannot exceed the maximum doublejumps allowed'
 playernotinarena: '&c You are not in a TNTRun arena'
 gamesplayed: '&bGames played &f: '
@@ -62,6 +69,7 @@ helplobby: Teleport to lobby
 helplist: List all arenas &for &cList arena details
 helplistkit: List all kits &for &cList kit details
 helpjoin: Join the arena
+helpspectate: Join the arena as a spectator
 helpautojoin: Automatically join the first available arena
 helpleave: Leave the current arena
 helpvote: Vote to force-start current arena
@@ -76,6 +84,8 @@ setupbounds: Set bounds for arena
 setuploselevel: Set loselevel bounds
 setupspawn: Set arena spawn at your feet
 setupspectate: Set spectator spawn point
+setupaddspawn: Set an additional spawn at your feet
+setupdelspawns: Delete all spawn points created with the addspawn command
 setupfinish: Finish arena and save
 setupdelspectate: Delete spectator spawn for arena
 setupdelay: Set a delay for removing blocks when player steps on it
@@ -104,5 +114,8 @@ setupenablekits: Enable kits for the arena
 setupdisablekits: Disable kits for the arena
 setupaddkit: Create a TNTRun kit
 setupdelkit: Create a TNTRun kit
+setupp1: Set targeted block as first selection point
+setupp2: Set targeted block as second selection point
+setupclear: Clear selection points
 kitexists: '&c The specified kit already exists : &6{KIT}'
 kitnotexists: '&c The specified kit does not exist : &6{KIT}'

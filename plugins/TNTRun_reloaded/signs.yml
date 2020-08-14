@@ -5,13 +5,28 @@ arenas:
       y: 5
       z: 41
       world: spigot_1_13_2_122858
-  Norlan: {}
+  Norlan:
+    '0':
+      x: -215
+      y: 28
+      z: 296
+      world: TNTRun_world
   Sezlot: {}
   Azwan: {}
   Deslot: {}
   Cave: {}
-  Totem: {}
-  Dena: {}
+  Totem:
+    '0':
+      x: -229
+      y: 28
+      z: 309
+      world: TNTRun_world
+  Dena:
+    '0':
+      x: -229
+      y: 28
+      z: 281
+      world: TNTRun_world
   Blasky: {}
   Quarent: {}
   Mersha: {}

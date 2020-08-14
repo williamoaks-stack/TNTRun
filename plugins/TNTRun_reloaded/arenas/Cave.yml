@@ -1,4 +1,4 @@
-world: spigot_1_13_2_122858
+world: TNTRun_world
 p1:
   ==: Vector
   x: 621.0
@@ -39,8 +39,11 @@ countdown: 30
 teleportto: PREVIOUS
 damageenabled: 'NO'
 enableKits: false
+punchDamage: true
+testmode: false
 regenerationdelay: 60
 joinfee: 0.0
+finished: true
 reward:
   money: 25
   xp: 0
