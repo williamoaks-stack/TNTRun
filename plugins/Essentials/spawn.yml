@@ -1,6 +1,6 @@
 spawns: 
   default: 
-    world: spigot_1_13_2_122858
+    world: TNTRun_world
     x: -228.3563429857601
     y: 26.0
     z: 295.4599949023862
