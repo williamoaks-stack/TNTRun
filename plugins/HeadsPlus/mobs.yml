@@ -33,7 +33,13 @@ cat:
   mask-amplifiers: []
   lore: '{default}'
 fox:
-  name: []
+  name:
+    default:
+    - HP#fox_mc
+    RED:
+    - HP#fox_mc
+    SNOW:
+    - HP#snow_fox
   chance: 0
   display-name: '{default}'
   price: '{default}'
@@ -42,7 +48,22 @@ fox:
   mask-amplifiers: []
   lore: '{default}'
 panda:
-  name: []
+  name:
+    default: []
+    NORMAL:
+    - HP#panda_normal
+    PLAYFUL:
+    - HP#panda_playful
+    LAZY:
+    - HP#panda_lazy
+    WORRIED:
+    - HP#panda_worried
+    BROWN:
+    - HP#panda_brown
+    WEAK:
+    - HP#panda_weak
+    AGGRESSIVE:
+    - HP#panda_aggressive
   chance: 0
   display-name: '{default}'
   price: '{default}'
@@ -51,7 +72,9 @@ panda:
   mask-amplifiers: []
   lore: '{default}'
 pillager:
-  name: []
+  name:
+    default:
+    - HP#pillager
   chance: 0
   display-name: '{default}'
   price: '{default}'
@@ -60,7 +83,9 @@ pillager:
   mask-amplifiers: []
   lore: '{default}'
 ravager:
-  name: []
+  name:
+    default:
+    - HP#ravager
   chance: 0
   display-name: '{default}'
   price: '{default}'
@@ -87,7 +112,9 @@ trader_llama:
   mask-amplifiers: []
   lore: '{default}'
 wandering_trader:
-  name: []
+  name:
+    default:
+    - HP#wandering_trader
   chance: 0
   display-name: '{default}'
   price: '{default}'
@@ -96,6 +123,7 @@ wandering_trader:
   mask-amplifiers: []
   lore: '{default}'
 defaults:
+  chance: 5
   price: 10.0
   lore:
   - '&7Price: &6{price}'
@@ -104,7 +132,8 @@ defaults:
   interact-name: '{type}'
 blaze:
   name:
-  - MHF_Blaze
+    default:
+    - HP#blaze
   interact-name: '{default}'
   display-name: '{default}'
   chance: 25
@@ -114,7 +143,8 @@ blaze:
   lore: '{default}'
 cavespider:
   name:
-  - MHF_Cavespider
+    default:
+    - HP#cave_spider
   interact-name: '{default}'
   display-name: '{default}'
   chance: 25
@@ -124,7 +154,8 @@ cavespider:
   lore: '{default}'
 chicken:
   name:
-  - MHF_Chicken
+    default:
+    - HP#chicken_mc
   interact-name: '{default}'
   display-name: '{default}'
   chance: 25
@@ -134,7 +165,8 @@ chicken:
   lore: '{default}'
 cow:
   name:
-  - MHF_Cow
+    default:
+    - HP#cow
   interact-name: '{default}'
   display-name: '{default}'
   chance: 25
@@ -144,7 +176,10 @@ cow:
   lore: '{default}'
 creeper:
   name:
-  - MHF_Creeper
+    default:
+    - '{mob-default}'
+    POWERED:
+    - HP#charged_creeper
   interact-name: '{default}'
   display-name: '{default}'
   chance: 25
@@ -154,7 +189,8 @@ creeper:
   lore: '{default}'
 enderman:
   name:
-  - MHF_Enderman
+    default:
+    - HP#enderman
   interact-name: '{default}'
   display-name: '{default}'
   chance: 25
@@ -164,7 +200,8 @@ enderman:
   lore: '{default}'
 ghast:
   name:
-  - MHF_Ghast
+    default:
+    - HP#ghast
   interact-name: '{default}'
   display-name: '{default}'
   chance: 25
@@ -174,7 +211,8 @@ ghast:
   lore: '{default}'
 guardian:
   name:
-  - MHF_Guardian
+    default:
+    - HP#guardian
   interact-name: '{default}'
   display-name: '{default}'
   chance: 25
@@ -184,7 +222,8 @@ guardian:
   lore: '{default}'
 irongolem:
   name:
-  - MHF_Golem
+    default:
+    - HP#iron_golem
   interact-name: '{default}'
   display-name: '{default}'
   chance: 25
@@ -194,7 +233,12 @@ irongolem:
   lore: '{default}'
 mushroomcow:
   name:
-  - MHF_Mushroomcow
+    default:
+    - HP#red_mooshroom
+    RED:
+    - HP#red_mooshroom
+    BROWN:
+    - HP#brown_mooshroom
   interact-name: '{default}'
   display-name: '{default}'
   chance: 25
@@ -204,7 +248,22 @@ mushroomcow:
   lore: '{default}'
 rabbit:
   name:
-  - MHF_Rabbit
+    default:
+    - HP#brown_rabbit
+    BROWN:
+    - HP#brown_rabbit
+    WHITE:
+    - HP#white_rabbit
+    BLACK:
+    - HP#black_rabbit
+    BLACK_AND_WHITE:
+    - HP#black_and_white_rabbit
+    GOLD:
+    - HP#gold_rabbit
+    SALT_AND_PEPPER:
+    - HP#salt_and_pepper_rabbit
+    THE_KILLER_BUNNY:
+    - HP#the_killer_bunny_rabbit
   interact-name: '{default}'
   display-name: '{default}'
   chance: 25
@@ -214,7 +273,8 @@ rabbit:
   lore: '{default}'
 pig:
   name:
-  - MHF_Pig
+    default:
+    - HP#pig
   interact-name: '{default}'
   display-name: '{default}'
   chance: 25
@@ -267,7 +327,8 @@ sheep:
   lore: '{default}'
 skeleton:
   name:
-  - MHF_Skeleton
+    default:
+    - '{mob-default}'
   interact-name: '{default}'
   display-name: '{default}'
   chance: 25
@@ -277,7 +338,8 @@ skeleton:
   lore: '{default}'
 slime:
   name:
-  - MHF_Slime
+    default:
+    - HP#slime
   interact-name: '{default}'
   display-name: '{default}'
   chance: 25
@@ -287,7 +349,8 @@ slime:
   lore: '{default}'
 spider:
   name:
-  - MHF_Spider
+    default:
+    - HP#spider
   interact-name: '{default}'
   display-name: '{default}'
   chance: 25
@@ -297,7 +360,8 @@ spider:
   lore: '{default}'
 squid:
   name:
-  - MHF_Squid
+    default:
+    - HP#squid
   interact-name: '{default}'
   display-name: '{default}'
   chance: 25
@@ -307,7 +371,22 @@ squid:
   lore: '{default}'
 villager:
   name:
-  - MHF_Villager
+    default:
+    - HP#villager_plains
+    DESERT:
+    - HP#villager_desert
+    PLAINS:
+    - HP#villager_plains
+    SAVANNA:
+    - HP#villager_savanna
+    SNOW:
+    - HP#villager_snow
+    SWAMP:
+    - HP#villager_swamp
+    TAIGA:
+    - HP#villager_taiga
+    JUNGLE:
+    - HP#villager_jungle
   interact-name: '{default}'
   display-name: '{default}'
   chance: 25
@@ -317,7 +396,8 @@ villager:
   lore: '{default}'
 witch:
   name:
-  - MHF_Witch
+    default:
+    - HP#witch
   interact-name: '{default}'
   display-name: '{default}'
   chance: 25
@@ -327,7 +407,8 @@ witch:
   lore: '{default}'
 zombie:
   name:
-  - MHF_Zombie
+    default:
+    - '{mob-default}'
   interact-name: '{default}'
   display-name: '{default}'
   chance: 25
@@ -336,7 +417,9 @@ zombie:
   mask-amplifiers: []
   lore: '{default}'
 bat:
-  name: []
+  name:
+    default:
+    - HP#bat
   chance: 0
   display-name: '{default}'
   price: '{default}'
@@ -345,7 +428,9 @@ bat:
   mask-amplifiers: []
   lore: '{default}'
 cod:
-  name: []
+  name:
+    default:
+    - HP#cod
   chance: 0
   display-name: '{default}'
   price: '{default}'
@@ -354,7 +439,9 @@ cod:
   mask-amplifiers: []
   lore: '{default}'
 dolphin:
-  name: []
+  name:
+    default:
+    - HP#dolphin
   chance: 0
   display-name: '{default}'
   price: '{default}'
@@ -363,7 +450,9 @@ dolphin:
   mask-amplifiers: []
   lore: '{default}'
 donkey:
-  name: []
+  name:
+    default:
+    - HP#donkey
   chance: 0
   display-name: '{default}'
   price: '{default}'
@@ -372,7 +461,9 @@ donkey:
   mask-amplifiers: []
   lore: '{default}'
 drowned:
-  name: []
+  name:
+    default:
+    - HP#drowned
   chance: 0
   display-name: '{default}'
   price: '{default}'
@@ -381,7 +472,9 @@ drowned:
   mask-amplifiers: []
   lore: '{default}'
 enderdragon:
-  name: []
+  name:
+    default:
+    - '{mob-default}'
   chance: 0
   display-name: '{default}'
   price: '{default}'
@@ -390,7 +483,9 @@ enderdragon:
   mask-amplifiers: []
   lore: '{default}'
 elderguardian:
-  name: []
+  name:
+    default:
+    - HP#elderguardian
   chance: 0
   display-name: '{default}'
   price: '{default}'
@@ -399,7 +494,9 @@ elderguardian:
   mask-amplifiers: []
   lore: '{default}'
 endermite:
-  name: []
+  name:
+    default:
+    - HP#endermite
   chance: 0
   display-name: '{default}'
   price: '{default}'
@@ -408,7 +505,9 @@ endermite:
   mask-amplifiers: []
   lore: '{default}'
 evoker:
-  name: []
+  name:
+    default:
+    - HP#evoker
   chance: 0
   display-name: '{default}'
   price: '{default}'
@@ -434,7 +533,9 @@ horse:
   mask-amplifiers: []
   lore: '{default}'
 husk:
-  name: []
+  name:
+    default:
+    - HP#husk
   chance: 0
   display-name: '{default}'
   price: '{default}'
@@ -457,7 +558,9 @@ llama:
   mask-amplifiers: []
   lore: '{default}'
 magmacube:
-  name: []
+  name:
+    default:
+    - HP#magmacube
   chance: 0
   display-name: '{default}'
   price: '{default}'
@@ -466,7 +569,9 @@ magmacube:
   mask-amplifiers: []
   lore: '{default}'
 mule:
-  name: []
+  name:
+    default:
+    - HP#mule
   chance: 0
   display-name: '{default}'
   price: '{default}'
@@ -475,7 +580,17 @@ mule:
   mask-amplifiers: []
   lore: '{default}'
 ocelot:
-  name: []
+  name:
+    default:
+    - HP#ocelot
+    WILD_OCELOT:
+    - HP#ocelot
+    BLACK_CAT:
+    - HP#black_cat
+    RED_CAT:
+    - HP#red_cat
+    SIAMESE_CAT:
+    - HP#siamese_cat
   chance: 0
   display-name: '{default}'
   price: '{default}'
@@ -499,7 +614,9 @@ parrot:
   mask-amplifiers: []
   lore: '{default}'
 phantom:
-  name: []
+  name:
+    default:
+    - HP#phantom
   chance: 0
   display-name: '{default}'
   price: '{default}'
@@ -508,7 +625,9 @@ phantom:
   mask-amplifiers: []
   lore: '{default}'
 pigzombie:
-  name: []
+  name:
+    default:
+    - HP#pigzombie
   chance: 0
   display-name: '{default}'
   price: '{default}'
@@ -517,7 +636,9 @@ pigzombie:
   mask-amplifiers: []
   lore: '{default}'
 polarbear:
-  name: []
+  name:
+    default:
+    - HP#polar_bear
   chance: 0
   display-name: '{default}'
   price: '{default}'
@@ -526,7 +647,9 @@ polarbear:
   mask-amplifiers: []
   lore: '{default}'
 pufferfish:
-  name: []
+  name:
+    default:
+    - HP#pufferfish
   chance: 0
   display-name: '{default}'
   price: '{default}'
@@ -535,7 +658,9 @@ pufferfish:
   mask-amplifiers: []
   lore: '{default}'
 salmon:
-  name: []
+  name:
+    default:
+    - HP#salmon
   chance: 0
   display-name: '{default}'
   price: '{default}'
@@ -544,7 +669,9 @@ salmon:
   mask-amplifiers: []
   lore: '{default}'
 shulker:
-  name: []
+  name:
+    default:
+    - HP#shulker
   chance: 0
   display-name: '{default}'
   price: '{default}'
@@ -553,7 +680,9 @@ shulker:
   mask-amplifiers: []
   lore: '{default}'
 silverfish:
-  name: []
+  name:
+    default:
+    - HP#silverfish
   chance: 0
   display-name: '{default}'
   price: '{default}'
@@ -562,7 +691,9 @@ silverfish:
   mask-amplifiers: []
   lore: '{default}'
 skeletonhorse:
-  name: []
+  name:
+    default:
+    - HP#skeletonhorse
   chance: 0
   display-name: '{default}'
   price: '{default}'
@@ -571,7 +702,9 @@ skeletonhorse:
   mask-amplifiers: []
   lore: '{default}'
 snowman:
-  name: []
+  name:
+    default:
+    - HP#snowman
   chance: 0
   display-name: '{default}'
   price: '{default}'
@@ -580,7 +713,9 @@ snowman:
   mask-amplifiers: []
   lore: '{default}'
 stray:
-  name: []
+  name:
+    default:
+    - HP#stray
   chance: 0
   display-name: '{default}'
   price: '{default}'
@@ -589,7 +724,9 @@ stray:
   mask-amplifiers: []
   lore: '{default}'
 tropicalfish:
-  name: []
+  name:
+    default:
+    - HP#tropicalfish
   chance: 0
   display-name: '{default}'
   price: '{default}'
@@ -598,7 +735,9 @@ tropicalfish:
   mask-amplifiers: []
   lore: '{default}'
 turtle:
-  name: []
+  name:
+    default:
+    - HP#turtle
   chance: 0
   display-name: '{default}'
   price: '{default}'
@@ -607,7 +746,9 @@ turtle:
   mask-amplifiers: []
   lore: '{default}'
 vex:
-  name: []
+  name:
+    default:
+    - HP#vex
   chance: 0
   display-name: '{default}'
   price: '{default}'
@@ -616,7 +757,9 @@ vex:
   mask-amplifiers: []
   lore: '{default}'
 vindicator:
-  name: []
+  name:
+    default:
+    - HP#vindicator
   chance: 0
   display-name: '{default}'
   price: '{default}'
@@ -625,7 +768,9 @@ vindicator:
   mask-amplifiers: []
   lore: '{default}'
 wither:
-  name: []
+  name:
+    default:
+    - HP#wither
   chance: 0
   display-name: '{default}'
   price: '{default}'
@@ -634,7 +779,9 @@ wither:
   mask-amplifiers: []
   lore: '{default}'
 witherskeleton:
-  name: []
+  name:
+    default:
+    - '{mob-default}'
   chance: 0
   display-name: '{default}'
   price: '{default}'
@@ -643,7 +790,9 @@ witherskeleton:
   mask-amplifiers: []
   lore: '{default}'
 wolf:
-  name: []
+  name:
+    default:
+    - HP#wolf
   chance: 0
   display-name: '{default}'
   price: '{default}'
@@ -652,7 +801,9 @@ wolf:
   mask-amplifiers: []
   lore: '{default}'
 zombiehorse:
-  name: []
+  name:
+    default:
+    - HP#zombiehorse
   chance: 0
   display-name: '{default}'
   price: '{default}'
@@ -661,7 +812,23 @@ zombiehorse:
   mask-amplifiers: []
   lore: '{default}'
 zombievillager:
-  name: []
+  name:
+    default:
+    - HP#zombie_villager_plains
+    DESERT:
+    - HP#zombie_villager_desert
+    PLAINS:
+    - HP#zombie_villager_plains
+    SAVANNA:
+    - HP#zombie_villager_savanna
+    SNOW:
+    - HP#zombie_villager_snow
+    SWAMP:
+    - HP#zombie_villager_swamp
+    TAIGA:
+    - HP#zombie_villager_taiga
+    JUNGLE:
+    - HP#zombie_villager_jungle
   chance: 0
   display-name: '{default}'
   price: '{default}'
@@ -716,3 +883,99 @@ arrowRightHeadEN: Arrow pointing right
 arrowRightHeadN: MHF_ArrowRight
 exclamationHeadEN: Exclamation
 exclamationHeadN: MHF_Exclamation
+bee:
+  name:
+    default:
+    - HP#bee_mc
+    ANGRY:
+    - HP#bee_angry
+    ANGRY,NECTAR:
+    - HP#bee_pollinated_angry
+    NECTAR:
+    - HP#bee_pollinated
+  chance: '{default}'
+  display-name: '{default}'
+  price: '{default}'
+  interact-name: '{default}'
+  mask-effects: []
+  mask-amplifiers: []
+  lore: '{default}'
+giant:
+  name:
+    default:
+    - HP#zombie
+  chance: '{default}'
+  display-name: '{default}'
+  price: '{default}'
+  interact-name: '{default}'
+  mask-effects: []
+  mask-amplifiers: []
+  lore: '{default}'
+hoglin:
+  name:
+    default:
+    - HP#hoglin
+  chance: '{default}'
+  display-name: '{default}'
+  price: '{default}'
+  interact-name: '{default}'
+  mask-effects: []
+  mask-amplifiers: []
+  lore: '{default}'
+piglin:
+  name:
+    default:
+    - HP#piglin
+  chance: '{default}'
+  display-name: '{default}'
+  price: '{default}'
+  interact-name: '{default}'
+  mask-effects: []
+  mask-amplifiers: []
+  lore: '{default}'
+piglinbrute:
+  name:
+    default:
+    - HP#piglin_brute
+  chance: '{default}'
+  display-name: '{default}'
+  price: '{default}'
+  interact-name: '{default}'
+  mask-effects: []
+  mask-amplifiers: []
+  lore: '{default}'
+strider:
+  name:
+    COLD:
+    - HP#cold_strider
+    default:
+    - HP#strider
+  chance: '{default}'
+  display-name: '{default}'
+  price: '{default}'
+  interact-name: '{default}'
+  mask-effects: []
+  mask-amplifiers: []
+  lore: '{default}'
+zoglin:
+  name:
+    default:
+    - HP#zoglin
+  chance: '{default}'
+  display-name: '{default}'
+  price: '{default}'
+  interact-name: '{default}'
+  mask-effects: []
+  mask-amplifiers: []
+  lore: '{default}'
+zombifiedpiglin:
+  name:
+    default:
+    - HP#zombified_piglin
+  chance: '{default}'
+  display-name: '{default}'
+  price: '{default}'
+  interact-name: '{default}'
+  mask-effects: []
+  mask-amplifiers: []
+  lore: '{default}'

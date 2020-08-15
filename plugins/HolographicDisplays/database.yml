@@ -1,5 +1,5 @@
 welcome:
-  location: spigot_1_13_2_122858, -239.513, 29.795, 284.352
+  location: TNTRun_world, -239.513, 29.795, 284.352
   lines:
   - '&2Welcome To &4TNTRun'
   - '&3You can edit this with &b/hd edit welcome'
