@@ -1,5 +1,5 @@
 # TNTRun
-![alt text](https://apexminecrafthosting.com/wp-content/uploads/2019/09/TNT-Run.png)
+![alt text](https://apex-misc.s3.amazonaws.com/Images/TNT+Run+Thumbnail.png)
 TNT Run is a game where you run around in an arena and while running each block that you walk/run over falls off down, there are about 3-7 layers on each arena and your goal is to be the last one standing whilst running around the arena trying not to fall into the void when running around the arena, each time you run over a block of gravel or sand which is the ground of the arena, a block of TNT is holding up the sand/gravel and when walked over the TNT will activate (no explosion will happen) and then releasing the sand/gravel down onto the next floor, basically what you’re supposed to do is run over gravel and sand blocks in an arena trying not to fall down the next layer and not falling in the void.
 
 https://apexminecrafthosting.com/tnt-run-server/
