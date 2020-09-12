@@ -1,6 +1,14 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [2.1]
+
+### Changed
+- Update Core Protect from version 19.1 to 19.2
+- Update EssentialsX from version 2.18.0 to 2.18.1
+- Update HeadsPlus from version 6.11 to 6.11-Beta-1
+- Update ProtocolLib from version 4.5.1 Build 476 to 4.5.1 Build 478
+
 ## [2.0]
 
 ### Added
@@ -32,5 +40,6 @@ All notable changes to this project will be documented in this file.
 ### Changed
 - Nothing
 
+[2.1]: https://github.com/apexhosting/TNTRun/releases/tag/2.1
 [2.0]: https://github.com/apexhosting/TNTRun/releases/tag/2.0
 [1.0]: https://github.com/apexhosting/TNTRun/releases/tag/1.0

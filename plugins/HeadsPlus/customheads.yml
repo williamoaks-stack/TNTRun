@@ -5,7 +5,7 @@ options:
   price-per-world:
     example-one: 15.0
   update-heads: true
-  version: 3.3
+  version: 3.4
   default-price: 10.0
 heads:
   bat:
@@ -2669,6 +2669,13 @@ heads:
     texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODNjMjVhN2ExODgxOTZiMTg3MTcyNjRmZmU4MzdjYTM0OGNmNzE5ZTgyNzE3OWVkYzRiNzhjYmNiOGM3ZGQ4In19fQ
     price: default
     section: easter
+  piglin_brute:
+    encode: true
+    displayname: '&8❰ &cPiglin Brute &8❱'
+    texture: 3e300e9027349c4907497438bac29e3a4c87a848c50b34c21242727b57f4e1cf
+    price: default
+    section: mobs
+    interact-name: Piglin Brute
 sections:
   mobs:
     display-name: '&8[&cMobs&8]'
