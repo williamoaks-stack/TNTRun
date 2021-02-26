@@ -5,11 +5,19 @@
 #                                        #
 # TNTRun_reloaded author steve4744       #
 #                                        #
+invitationmessage:
+  enabled: false
+currency:
+  prefix: ''
+  suffix: ' coins'
+language: en-GB
+debug: false
 UseRankInChat:
   enabled: false
   usegroup: true
   useprefix: false
 menu:
+  pvpitem: IRON_BLOCK
   includedisabled: false
   item: TNT
   panecolor: LIGHT_BLUE
@@ -111,6 +119,7 @@ scoreboard:
   - '&fEnd in: &c&l{LIMIT}'
 database: file
 MySQL:
+  flags: allowPublicKeyRetrieval=true
   table: stats
   useSSL: false
   host: host
@@ -119,6 +128,11 @@ MySQL:
   user: root
   pass: password
 signs:
+  blockcolour:
+    disabled: ''
+    ingame: ''
+    starting: ''
+    waiting: ''
   join: '[Join]'
   prefix: '&6&lTNTRun'
   status:

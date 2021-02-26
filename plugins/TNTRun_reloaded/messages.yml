@@ -3,6 +3,7 @@ menutitle: '&1TNTRun Arenas'
 menuarenaname: '&a{ARENA}'
 menutext: '&5Players:&6'
 menufee: '&5Join Fee: &6{FEE}'
+menupvp: '&5PVP: &6Enabled'
 nopermission: '&c You don''t have permission to do this'
 nolobby: '&c Global lobby isn''t set, run &6/trsetup setlobby'
 lobbyunloaded: '&c Lobby world is unloaded or doesn''t exist'
@@ -29,8 +30,11 @@ arenanofee: '&c You do not have the required fee to enter the arena'
 arenawaiting: '&6 Arena is waiting'
 playerscountinarena: '&6 Current number of players in arena: {COUNT} players'
 limitreached: '&7 Arena is full.'
-playerjoinedtoplayer: '&7 You joined the arena'
 playerjoinedtoothers: '&7 Player &6{PLAYER} &7joined the arena'
+playerjoininvite: '&c{RANK}&6{PLAYER} &7has joined TNTRun arena &6{ARENA}&7, click
+  to play'
+playerborderinvite: '&b---------------------------------------'
+playerclickinvite: Click to join {ARENA}
 playerjoinedasspectator: '&7 You joined arena &6{ARENA} &7as a spectator'
 playerlefttoplayer: '&7 You left the arena'
 playerlefttoothers: '&7 Player &6{PLAYER} &7left the game'
@@ -44,13 +48,19 @@ arenatimeout: '&7 Time is up. Ending game'
 playerwontoplayer: '&7 You won the game!'
 playerlosttoplayer: '&7 You lost the game'
 playerlosttoothers: '&7 Player &6{PLAYER} &7lost the game'
-playerwonbroadcast: '&6 {PLAYER}&7 won the game on arena &6{ARENA}'
+playerfirstplace: '&a1st place: &f{RANK}'
+playersecondplace: '&a2nd place: &f{RANK}'
+playerthirdplace: '&a3rd place: &f{RANK}'
 playerrewardmessage: '&7 You have been rewarded: &6{REWARD}'
+playerrewardmaterial: '&6 Material :  &f'
+playerrewardcommand: '&6 Command : &f'
+playerrewardmoney: '&6 Money :    &f'
+playerrewardxp: '&6 XP :      &l  &f'
 playerboughtitem: '&7 You have bought item &6{ITEM} &7for &6{MONEY} &7coins'
 playerboughtwait: '&7 You will get your items when the game starts'
 playerkit: '&7 You have been given kit &6{KIT}'
 playersrequiredtostart: '&c There must be at least 2 players in the arena to force-start'
-notenoughtmoney: '&c You need {MONEY} coins to buy this item'
+notenoughmoney: '&c You need {MONEY} to buy this item'
 alreadyboughtitem: '&c You have already bought a shop item'
 shopnostock: '&c This item is currently out of stock'
 maxdoublejumpsexceeded: '&c You cannot exceed the maximum doublejumps allowed'
@@ -59,7 +69,9 @@ gamesplayed: '&bGames played &f: '
 gameswon: '&bWins &f: '
 gameslost: '&bLosses &f: '
 statshead: '&e=========&4&l[&4TNTRun Stats&4&l]&e========='
+rewardshead: '&7======[&6TNTRun Rewards&7 - &a{ARENA}&7]======'
 leaderhead: '&e======&b&l[&4&lTNTRun &5&lLeaderboard&b&l]&e======'
+resultshead: '&7============[&6TNTRun&7]============'
 leaderboard: '&6&l{POSITION}: &2&l{PLAYER} &6Has &3&l{WINS} &aWins'
 leadersign: '&1{PLAYER} &4{WINS}'
 shopmoneyheader: '&fTNTRun Shop Account'
@@ -68,6 +80,7 @@ statsdisabled: '&c Stats are currently disabled'
 helplobby: Teleport to lobby
 helplist: List all arenas &for &cList arena details
 helplistkit: List all kits &for &cList kit details
+helplistrewards: List the rewards for the arena
 helpjoin: Join the arena
 helpspectate: Join the arena as a spectator
 helpautojoin: Automatically join the first available arena
@@ -76,6 +89,7 @@ helpvote: Vote to force-start current arena
 helpcmds: View all TNTRun commands
 helpinfo: View plugin info
 helpstats: View player stats
+helplb: Display the TNTRun leaderboard
 helpstart: Force-start the arena
 setuplobby: Set lobby at your current location
 setupdellobby: Delete the global lobby
@@ -117,5 +131,6 @@ setupdelkit: Create a TNTRun kit
 setupp1: Set targeted block as first selection point
 setupp2: Set targeted block as second selection point
 setupclear: Clear selection points
+setupwhitelist: Whitelist a command for use in-game
 kitexists: '&c The specified kit already exists : &6{KIT}'
 kitnotexists: '&c The specified kit does not exist : &6{KIT}'
