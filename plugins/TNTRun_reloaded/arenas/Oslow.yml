@@ -16,11 +16,6 @@ loselevel:
     x: 406.0
     y: 0.0
     z: 268.0
-  p2:
-    ==: Vector
-    x: 454.0
-    y: 0.0
-    z: 316.0
 spawnpoint:
   ==: Vector
   x: 439.2524485474701
@@ -38,12 +33,29 @@ timelimit: 300
 countdown: 30
 teleportto: PREVIOUS
 damageenabled: 'NO'
-enableKits: false
+kits:
+  enabled: false
+  linked: []
+  randomLinkedKit: true
 punchDamage: true
 testmode: false
+excludeStats: false
 regenerationdelay: 60
 joinfee: 0.0
 finished: true
+spawnpoints: []
+commandOnStart: ''
+commandOnStop: ''
 reward:
+  minPlayers: 0
   money: 25
   xp: 0
+places:
+  second:
+    minPlayers: 0
+    money: 0
+    xp: 0
+  third:
+    minPlayers: 0
+    money: 0
+    xp: 0

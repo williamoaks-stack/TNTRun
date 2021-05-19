@@ -6,6 +6,9 @@
 # TNTRun_reloaded author steve4744       #
 #                                        #
 invitationmessage:
+  allowspectate: false
+  excludeplayers: false
+  excludeoriginator: false
   enabled: false
 currency:
   prefix: ''
@@ -96,6 +99,7 @@ items:
     material: GLOWSTONE_DUST
     name: '&e&lHeads'
 scoreboard:
+  removefromspectators: true
   displaydoublejumps: false
   header: '&6&lTNTRUN'
   waiting:
@@ -140,7 +144,9 @@ signs:
     ingame: '&c&l{PS}&8/&c&l{MPS}'
     regenerating: '&6&lRegen...'
     waiting: '&a&l{PS}&8/&a&l{MPS}'
-doublejumps: {}
+doublejumps:
+  multiplier: 1.5
+  height: 0.7
 freedoublejumps:
   enabled: false
   amount: 10

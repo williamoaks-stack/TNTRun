@@ -72,6 +72,7 @@ plugin:
     xp:
       allow-negative: false
   mechanics:
+    suppress-messages-during-search: false
     suppress-gui-warnings: true
     blocked-spawn-causes:
     - SPAWNER_EGG
