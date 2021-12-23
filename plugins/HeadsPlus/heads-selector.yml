@@ -1,0 +1,906 @@
+heads:
+  HP#wood_a:
+    section: alphabet
+  HP#wood_b:
+    section: alphabet
+  HP#wood_c:
+    section: alphabet
+  HP#wood_d:
+    section: alphabet
+  HP#wood_e:
+    section: alphabet
+  HP#wood_f:
+    section: alphabet
+  HP#wood_g:
+    section: alphabet
+  HP#wood_h:
+    section: alphabet
+  HP#wood_i:
+    section: alphabet
+  HP#wood_j:
+    section: alphabet
+  HP#wood_k:
+    section: alphabet
+  HP#wood_l:
+    section: alphabet
+  HP#wood_m:
+    section: alphabet
+  HP#wood_n:
+    section: alphabet
+  HP#wood_o:
+    section: alphabet
+  HP#wood_p:
+    section: alphabet
+  HP#wood_q:
+    section: alphabet
+  HP#wood_r:
+    section: alphabet
+  HP#wood_s:
+    section: alphabet
+  HP#wood_t:
+    section: alphabet
+  HP#wood_u:
+    section: alphabet
+  HP#wood_v:
+    section: alphabet
+  HP#wood_w:
+    section: alphabet
+  HP#wood_x:
+    section: alphabet
+  HP#wood_y:
+    section: alphabet
+  HP#wood_z:
+    section: alphabet
+  HP#wood_ascii_a:
+    section: alphabet
+  HP#wood_ascii_o:
+    section: alphabet
+  HP#wood_ascii_u:
+    section: alphabet
+  HP#wood_1:
+    section: alphabet
+  HP#wood_2:
+    section: alphabet
+  HP#wood_3:
+    section: alphabet
+  HP#wood_4:
+    section: alphabet
+  HP#wood_5:
+    section: alphabet
+  HP#wood_6:
+    section: alphabet
+  HP#wood_7:
+    section: alphabet
+  HP#wood_8:
+    section: alphabet
+  HP#wood_9:
+    section: alphabet
+  HP#wood_0:
+    section: alphabet
+  HP#wood_space:
+    section: alphabet
+  HP#wood_colon:
+    section: alphabet
+  HP#wood_slash:
+    section: alphabet
+  HP#portable_grill:
+    section: decoration
+  HP#beer_barrel:
+    section: decoration
+  HP#present:
+    section: decoration
+  HP#present_1:
+    section: decoration
+  HP#parcel:
+    section: decoration
+  HP#lava_bucket:
+    section: decoration
+  HP#water_bucket:
+    section: decoration
+  HP#bucket:
+    section: decoration
+  HP#cctv:
+    section: decoration
+  HP#radio:
+    section: decoration
+  HP#black_dice:
+    section: decoration
+  HP#white_dice:
+    section: decoration
+  HP#red_dice:
+    section: decoration
+  HP#globe:
+    section: decoration
+  HP#toaster:
+    section: decoration
+  HP#tnt:
+    section: decoration
+  HP#pearl:
+    section: decoration
+  HP#chimney:
+    section: decoration
+  HP#red_candle:
+    section: decoration
+  HP#white_candle:
+    section: decoration
+  HP#monitor:
+    section: decoration
+  HP#cooking_pot:
+    section: decoration
+  HP#lantern:
+    section: decoration
+  HP#paper_lantern:
+    section: decoration
+  HP#snow_globe:
+    section: decoration
+  HP#speaker:
+    section: decoration
+  HP#rose_pot:
+    section: decoration
+  HP#salvia_pot:
+    section: decoration
+  HP#toilet_paper:
+    section: decoration
+  HP#fishbowl:
+    section: decoration
+  HP#beach_ball:
+    section: decoration
+  HP#soccer_ball:
+    section: decoration
+  HP#fire_charge:
+    section: decoration
+  HP#basketball:
+    section: decoration
+  HP#cannonball:
+    section: decoration
+  HP#clock:
+    section: decoration
+  HP#rubiks_cube:
+    section: decoration
+  HP#letter_box:
+    section: decoration
+  HP#basket:
+    section: decoration
+  HP#papers:
+    section: decoration
+  HP#red_lantern:
+    section: decoration
+  HP#yellow_lantern:
+    section: decoration
+  HP#off_lantern:
+    section: decoration
+  HP#snowman_head:
+    section: decoration
+  HP#fan:
+    section: decoration
+  HP#chess_board:
+    section: decoration
+  HP#projector:
+    section: decoration
+  HP#tissue_box:
+    section: decoration
+  HP#microwave:
+    section: decoration
+  HP#wooden_crate:
+    section: decoration
+  HP#fire:
+    section: decoration
+  HP#wii_console:
+    section: decoration
+  HP#playstation:
+    section: decoration
+  HP#xbox:
+    section: decoration
+  HP#flower_pot:
+    section: decoration
+  HP#bread:
+    section: food_and_drink
+  HP#cheese:
+    section: food_and_drink
+  HP#chocolate_donut:
+    section: food_and_drink
+  HP#white_donut:
+    section: food_and_drink
+  HP#pink_donut:
+    section: food_and_drink
+  HP#taco:
+    section: food_and_drink
+  HP#popcorn:
+    section: food_and_drink
+  HP#pancakes:
+    section: food_and_drink
+  HP#bowl_of_rice:
+    section: food_and_drink
+  HP#salmon:
+    section: food_and_drink
+  HP#sundae:
+    section: food_and_drink
+  HP#pepsi:
+    section: food_and_drink
+  HP#fanta:
+    section: food_and_drink
+  HP#coca_cola:
+    section: food_and_drink
+  HP#water:
+    section: food_and_drink
+  HP#red_wine:
+    section: food_and_drink
+  HP#sandwich:
+    section: food_and_drink
+  HP#beer:
+    section: food_and_drink
+  HP#red_jam:
+    section: food_and_drink
+  HP#nutella:
+    section: food_and_drink
+  HP#fries:
+    section: food_and_drink
+  HP#burger:
+    section: food_and_drink
+  HP#candy_bowl:
+    section: food_and_drink
+  HP#butter:
+    section: food_and_drink
+  HP#spaghetti:
+    section: food_and_drink
+  HP#hot_dog:
+    section: food_and_drink
+  HP#owl:
+    section: animals
+  HP#robin:
+    section: animals
+  HP#blue_bird:
+    section: animals
+  HP#blue_bird2:
+    section: animals
+  HP#white_bird:
+    section: animals
+  HP#parrot:
+    section: animals
+  HP#chicken:
+    section: animals
+  HP#panda:
+    section: animals
+  HP#turtle:
+    section: animals
+  HP#bee:
+    section: animals
+  HP#doge:
+    section: animals
+  HP#lizard:
+    section: animals
+  HP#elephant:
+    section: animals
+  HP#racoon:
+    section: animals
+  HP#llama:
+    section: animals
+  HP#polar_bear:
+    section: animals
+  HP#youtube:
+    section: logos
+  HP#facebook:
+    section: logos
+  HP#skype:
+    section: logos
+  HP#instagram:
+    section: logos
+  HP#reddit:
+    section: logos
+  HP#twitch:
+    section: logos
+  HP#google_chrome:
+    section: logos
+  HP#twitter:
+    section: logos
+  HP#discord:
+    section: logos
+  HP#snapchat:
+    section: logos
+  HP#imgur:
+    section: logos
+  HP#mojang:
+    section: logos
+  HP#patreon:
+    section: logos
+  HP#pinterest:
+    section: logos
+  HP#deviantart:
+    section: logos
+  HP#mixer:
+    section: logos
+  HP#ios_apple:
+    section: logos
+  HP#spotify:
+    section: logos
+  HP#paypal:
+    section: logos
+  HP#netflix:
+    section: logos
+  HP#github:
+    section: logos
+  HP#wood_heart:
+    section: alphabet
+  HP#wood_minus:
+    section: alphabet
+  HP#wood_hashtag:
+    section: alphabet
+  HP#wood_underscore:
+    section: alphabet
+  HP#wood_square_bracket_1:
+    section: alphabet
+  HP#wood_square_bracket_2:
+    section: alphabet
+  HP#wood_percentage:
+    section: alphabet
+  HP#wood_quotes:
+    section: alphabet
+  HP#wood_semi_colon:
+    section: alphabet
+  HP#wood_comma:
+    section: alphabet
+  HP#wood_curly_bracket:
+    section: alphabet
+  HP#wood_curly_bracket_2:
+    section: alphabet
+  HP#wood_equals_sign:
+    section: alphabet
+  HP#wood_plus_sign:
+    section: alphabet
+  HP#rainbow_sundae:
+    section: food_and_drink
+  HP#monochrome_sundae:
+    section: food_and_drink
+  HP#melon_sundae:
+    section: food_and_drink
+  HP#lemon_sundae:
+    section: food_and_drink
+  HP#strawberry_sundae:
+    section: food_and_drink
+  HP#bananasplit_sundae:
+    section: food_and_drink
+  HP#rosebush:
+    section: plants
+  HP#white_flower_bush:
+    section: plants
+  HP#blueberry_bush:
+    section: plants
+  HP#white_berry_bush:
+    section: plants
+  HP#red_flower_bush:
+    section: plants
+  HP#yellow_flower_bush:
+    section: plants
+  HP#red_flower_bush_2:
+    section: plants
+  HP#pink_flower_bush:
+    section: plants
+  HP#red_berry_bush:
+    section: plants
+  HP#chorus_plant:
+    section: plants
+  HP#chorus_flower:
+    section: plants
+  HP#white_sheep:
+    section: animals
+  HP#red_sheep:
+    section: animals
+  HP#orange_sheep:
+    section: animals
+  HP#yellow_sheep:
+    section: animals
+  HP#lime_sheep:
+    section: animals
+  HP#green_sheep:
+    section: animals
+  HP#light_blue_sheep:
+    section: animals
+  HP#cyan_sheep:
+    section: animals
+  HP#blue_sheep:
+    section: animals
+  HP#purple_sheep:
+    section: animals
+  HP#magenta_sheep:
+    section: animals
+  HP#pink_sheep:
+    section: animals
+  HP#silver_sheep:
+    section: animals
+  HP#gray_sheep:
+    section: animals
+  HP#black_sheep:
+    section: animals
+  HP#brown_sheep:
+    section: animals
+  HP#red_block:
+    section: colors
+  HP#orange_block:
+    section: colors
+  HP#yellow_block:
+    section: colors
+  HP#lime_block:
+    section: colors
+  HP#green_block:
+    section: colors
+  HP#light_blue_block:
+    section: colors
+  HP#cyan_block:
+    section: colors
+  HP#blue_block:
+    section: colors
+  HP#purple_block:
+    section: colors
+  HP#magenta_block:
+    section: colors
+  HP#pink_block:
+    section: colors
+  HP#white_block:
+    section: colors
+  HP#light_gray_block:
+    section: colors
+  HP#gray_block:
+    section: colors
+  HP#black:
+    section: colors
+  HP#brown:
+    section: colors
+  HP#rainbow:
+    section: colors
+  HP#e_neutral:
+    section: emotes
+  HP#e_smile:
+    section: emotes
+  HP#e_tongue:
+    section: emotes
+  HP#e_wink:
+    section: emotes
+  HP#e_surprised:
+    section: emotes
+  HP#e_dead:
+    section: emotes
+  HP#e_kiss:
+    section: emotes
+  HP#e_crying:
+    section: emotes
+  HP#e_disappointed:
+    section: emotes
+  HP#e_sleeping:
+    section: emotes
+  HP#emerald_block:
+    section: blocks
+  HP#diamond_block:
+    section: blocks
+  HP#gold_block:
+    section: blocks
+  HP#iron_block:
+    section: blocks
+  HP#redstone_block:
+    section: blocks
+  HP#cobblestone:
+    section: blocks
+  HP#grass_block:
+    section: blocks
+  HP#snow_grass_block:
+    section: blocks
+  HP#wood_planks:
+    section: blocks
+  HP#diamond_ore:
+    section: blocks
+  HP#gold_ore:
+    section: blocks
+  HP#redstone_ore:
+    section: blocks
+  HP#coal_block:
+    section: blocks
+  HP#coal_ore:
+    section: blocks
+  HP#iron_ore:
+    section: blocks
+  HP#emerald_ore:
+    section: blocks
+  HP#end_stone:
+    section: blocks
+  HP#oak_log:
+    section: blocks
+  HP#diamond_block_2:
+    section: blocks
+  HP#emerald_block_2:
+    section: blocks
+  HP#gold_block_2:
+    section: blocks
+  HP#red_mushroom:
+    section: blocks
+  HP#missing_texture:
+    section: blocks
+  HP#brain_coral:
+    section: blocks
+  HP#bubble_coral:
+    section: blocks
+  HP#fire_coral:
+    section: blocks
+  HP#horn_coral:
+    section: blocks
+  HP#tube_coral:
+    section: blocks
+  HP#oak_planks:
+    section: blocks
+  HP#birch_planks:
+    section: blocks
+  HP#spruce_planks:
+    section: blocks
+  HP#jungle_planks:
+    section: blocks
+  HP#acacia_planks:
+    section: blocks
+  HP#dark_oak_planks:
+    section: blocks
+  HP#bone_block:
+    section: blocks
+  HP#snowball:
+    section: blocks
+  HP#snowman:
+    section: decoration
+  HP#bat:
+    section: animals
+  HP#persian_cat:
+    section: animals
+  HP#british_shorthair_cat:
+    section: animals
+  HP#jellie_cat:
+    section: animals
+  HP#all_black_cat:
+    section: animals
+  HP#white_cat:
+    section: animals
+  HP#siamese_cat:
+    section: animals
+  HP#black_cat:
+    section: animals
+  HP#ragdoll_cat:
+    section: animals
+  HP#red_cat:
+    section: animals
+  HP#tabby_cat:
+    section: animals
+  HP#calico_cat:
+    section: animals
+  HP#cod:
+    section: animals
+  HP#tropicalfish:
+    section: animals
+  HP#dolphin:
+    section: animals
+  HP#donkey:
+    section: animals
+  HP#drowned:
+    section: mobs
+  HP#elderguardian:
+    section: mobs
+  HP#endermite:
+    section: mobs
+  HP#evoker:
+    section: mobs
+  HP#fox:
+    section: animals
+  HP#white_horse:
+    section: animals
+  HP#creamy_horse:
+    section: animals
+  HP#chestnut_horse:
+    section: animals
+  HP#brown_horse:
+    section: animals
+  HP#dark_brown_horse:
+    section: animals
+  HP#gray_horse:
+    section: animals
+  HP#black_horse:
+    section: animals
+  HP#husk:
+    section: mobs
+  HP#white_llama:
+    section: animals
+  HP#gray_llama:
+    section: animals
+  HP#brown_llama:
+    section: animals
+  HP#creamy_llama:
+    section: animals
+  HP#white_trader_llama:
+    section: animals
+  HP#gray_trader_llama:
+    section: animals
+  HP#brown_trader_llama:
+    section: animals
+  HP#creamy_trader_llama:
+    section: animals
+  HP#magma_cube:
+    section: mobs
+  HP#mule:
+    section: animals
+  HP#ocelot:
+    section: animals
+  HP#red_parrot:
+    section: animals
+  HP#green_parrot:
+    section: animals
+  HP#gray_parrot:
+    section: animals
+  HP#cyan_parrot:
+    section: animals
+  HP#blue_parrot:
+    section: animals
+  HP#phantom:
+    section: mobs
+  HP#pigzombie:
+    section: mobs
+  HP#polarbear:
+    section: animals
+  HP#pufferfish:
+    section: animals
+  HP#pillager:
+    section: mobs
+  HP#ravager:
+    section: mobs
+  HP#shulker:
+    section: mobs
+  HP#silverfish:
+    section: mobs
+  HP#skeletonhorse:
+    section: mobs
+  HP#stray:
+    section: mobs
+  HP#vex:
+    section: mobs
+  HP#vindicator:
+    section: mobs
+  HP#wandering_trader:
+    section: mobs
+  HP#wither:
+    section: mobs
+  HP#wolf:
+    section: mobs
+  HP#zombiehorse:
+    section: mobs
+  HP#zombievillager:
+    section: mobs
+  HP#golden_check:
+    section: alphabet
+  HP#red_exclamation_mark:
+    section: alphabet
+  HP#bee_mc:
+    section: animals
+  HP#bee_pollinated:
+    section: animals
+  HP#bee_angry:
+    section: animals
+  HP#bee_pollinated_angry:
+    section: animals
+  HP#charged_creeper:
+    section: mobs
+  HP#fox_mc:
+    section: animals
+  HP#snow_fox:
+    section: animals
+  HP#villager_plains:
+    section: humans
+  HP#villager_jungle:
+    section: humans
+  HP#villager_savanna:
+    section: humans
+  HP#villager_desert:
+    section: humans
+  HP#villager_snow:
+    section: humans
+  HP#villager_swamp:
+    section: humans
+  HP#villager_taiga:
+    section: humans
+  HP#red_mooshroom:
+    section: animals
+  HP#brown_mooshroom:
+    section: animals
+  HP#brown_rabbit:
+    section: animals
+  HP#white_rabbit:
+    section: animals
+  HP#black_rabbit:
+    section: animals
+  HP#black_and_white_rabbit:
+    section: animals
+  HP#gold_rabbit:
+    section: animals
+  HP#salt_and_pepper_rabbit:
+    section: animals
+  HP#the_killer_bunny_rabbit:
+    section: animals
+  HP#zombie_villager_plains:
+    section: humans
+  HP#zombie_villager_taiga:
+    section: humans
+  HP#zombie_villager_swamp:
+    section: humans
+  HP#zombie_villager_savanna:
+    section: humans
+  HP#zombie_villager_jungle:
+    section: humans
+  HP#zombie_villager_desert:
+    section: humans
+  HP#zombie_villager_snow:
+    section: humans
+  HP#panda_normal:
+    section: animals
+  HP#panda_playful:
+    section: animals
+  HP#panda_aggressive:
+    section: animals
+  HP#panda_worried:
+    section: animals
+  HP#panda_brown:
+    section: animals
+  HP#panda_weak:
+    section: animals
+  HP#panda_lazy:
+    section: animals
+  HP#blaze:
+    section: mobs
+  HP#cave_spider:
+    section: mobs
+  HP#chicken_mc:
+    section: animals
+  HP#amethyst:
+    section: gems
+  HP#diamond:
+    section: gems
+  HP#carnelian:
+    section: gems
+  HP#ruby:
+    section: gems
+  HP#sapphire:
+    section: gems
+  HP#amber:
+    section: gems
+  HP#emerald:
+    section: gems
+  HP#tanzanite:
+    section: gems
+  HP#onyx:
+    section: gems
+  HP#peridot:
+    section: gems
+  HP#aquamarine:
+    section: gems
+  HP#cosmic_quartz:
+    section: gems
+  HP#citrine:
+    section: gems
+  HP#beryl:
+    section: gems
+  HP#midnight_opal:
+    section: gems
+  HP#dragonsbreath_opal:
+    section: gems
+  HP#creeper:
+    section: mobs
+  HP#cow:
+    section: animals
+  HP#enderman:
+    section: mobs
+  HP#ghast:
+    section: mobs
+  HP#guardian:
+    section: mobs
+  HP#iron_golem:
+    section: mobs
+  HP#pig:
+    section: animals
+  HP#skeleton:
+    section: mobs
+  HP#slime:
+    section: mobs
+  HP#spider:
+    section: mobs
+  HP#squid:
+    section: animals
+  HP#witch:
+    section: humans
+  HP#zombie:
+    section: mobs
+  HP#strider:
+    section: mobs
+  HP#cold_strider:
+    section: mobs
+  HP#hoglin:
+    section: mobs
+  HP#zoglin:
+    section: mobs
+  HP#piglin:
+    section: mobs
+  HP#zombified_piglin:
+    section: mobs
+  HP#piglin_brute:
+    section: mobs
+  HP#lucy_axolotl:
+    section: animals
+  HP#wild_axolotl:
+    section: animals
+  HP#gold_axolotl:
+    section: animals
+  HP#cyan_axolotl:
+    section: animals
+  HP#blue_axolotl:
+    section: animals
+  HP#glow_squid:
+    section: animals
+  HP#goat:
+    section: animals
+sections:
+  alphabet:
+    texture: HP#wood_a
+    display-name: '&8[&6Alphabet&8]'
+    enabled: true
+    permission: headsplus.section.alphabet
+  animals:
+    texture: HP#elephant
+    display-name: '&8[&aAnimals&8]'
+    enabled: true
+    permission: headsplus.section.animals
+  decoration:
+    texture: HP#paper_lantern
+    display-name: '&8[&eDecoration&8]'
+    enabled: true
+    permission: headsplus.section.decoration
+  food_and_drink:
+    texture: HP#pepsi
+    display-name: '&8[&6Food &7and &9Drink&8]'
+    enabled: true
+    permission: headsplus.section.food_and_drink
+  logos:
+    texture: HP#youtube
+    display-name: '&8[&cLogos&8]'
+    enabled: true
+    permission: headsplus.section.logos
+  plants:
+    texture: HP#white_flower_bush
+    display-name: '&8[&aPlants&8]'
+    enabled: true
+    permission: headsplus.section.plants
+  colors:
+    texture: HP#rainbow
+    display-name: '&8[&4C&6o&el&ao&br&ds&8]'
+    enabled: true
+    permission: headsplus.section.colors
+  emotes:
+    texture: HP#e_wink
+    display-name: '&8[&eEmotes&8]'
+    enabled: true
+    permission: headsplus.section.emotes
+  blocks:
+    texture: HP#oak_log
+    display-name: '&8[&9Blocks&8]'
+    enabled: true
+    permission: headsplus.section.blocks
+  players:
+    texture: HP#players_1
+    display-name: '&8[&6Players&8]'
+    enabled: true
+    permission: headsplus.section.players
+  mobs:
+    texture: HP#evoker
+    display-name: '&8[&cMobs&8]'
+    enabled: true
+    permission: headsplus.section.mobs
+  humans:
+    texture: HP#villager_plains
+    display-name: '&8[&6Humans&8]'
+    enabled: true
+    permission: headsplus.section.humans
+  gems:
+    texture: HP#amethyst
+    display-name: '&8[&bGems&8]'
+    enabled: true
+    permission: headsplus.section.gems
+
+# This is where you can configure where the heads selector (/heads)
+version: 3.5

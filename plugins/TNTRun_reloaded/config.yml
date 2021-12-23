@@ -5,6 +5,11 @@
 #                                        #
 # TNTRun_reloaded author steve4744       #
 #                                        #
+usexpbar:
+  countdown: true
+  timelimit: true
+parties:
+  enabled: true
 invitationmessage:
   allowspectate: false
   excludeplayers: false
@@ -16,6 +21,7 @@ currency:
 language: en-GB
 debug: false
 UseRankInChat:
+  groupcolormeta: false
   enabled: false
   usegroup: true
   useprefix: false
@@ -33,6 +39,7 @@ special:
   CheckForNewVersion: true
   Metrics: true
 shop:
+  enabled: true
   showmoneyitem: GOLD_INGOT
   logpurchases: false
   name: '&6&lTNTRun &f&lSHOP'
@@ -64,10 +71,16 @@ sounds:
     volume: 5
     pitch: 1.0
 anticamping:
+  teleporttime: 5
   enabled: true
 leaderboard:
   maxentries: 10
 items:
+  tracker:
+    use: true
+    material: COMPASS
+    name: '&e&lPlayer Tracker'
+    slot: 5
   vote:
     slot: 0
     use: true
@@ -123,6 +136,7 @@ scoreboard:
   - '&fEnd in: &c&l{LIMIT}'
 database: file
 MySQL:
+  legacyDriver: true
   flags: allowPublicKeyRetrieval=true
   table: stats
   useSSL: false
@@ -132,6 +146,7 @@ MySQL:
   user: root
   pass: password
 signs:
+  allowspectate: false
   blockcolour:
     disabled: ''
     ingame: ''
@@ -151,6 +166,8 @@ freedoublejumps:
   enabled: false
   amount: 10
 bungeecord:
+  randomarena: true
+  useUUID: false
   enabled: false
   hub: lobby
   useMOTD: true
