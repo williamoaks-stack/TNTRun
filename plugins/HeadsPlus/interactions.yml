@@ -1,0 +1,84 @@
+version: 0.1
+
+# This section outlines the default values for heads not specified in the special section.
+defaults:
+  message: '{msg_event.head-interact-message}'
+  consonant-message: '{msg_event.head-mhf-interact-message}'
+  vowel-message: '{msg_event.head-mhf-interact-message-2}'
+  commands: []
+
+# This is the section where you can specify unique interactions with heads.
+# These can be specified with location, name and texture.
+# Locations are placed at the highest priority and are formatted as 0x0y0zworld_name. (Replace the 0s with the coordinates you want and world_name with the world's name.)
+# Names, or names stored inside the skull, are placed at the following priority. It is as simple as specifying your own name, e.g. Thatsmusic99.
+# Texture checks are placed at the lowest priority. These can be Base64 strings, Minecraft Textures/Education URLs or skin hashes.
+special:
+  names:
+    MHF_CoconutB:
+      message: '{consonant-message}'
+      commands: []
+      name: Brown Coconut
+    MHF_CoconutG:
+      message: '{consonant-message}'
+      commands: []
+      name: Green Coconut
+    MHF_Present1:
+      message: '{consonant-message}'
+      commands: []
+      name: Present
+    MHF_Present2:
+      message: '{consonant-message}'
+      commands: []
+      name: Present
+    MHF_TNT:
+      message: '{consonant-message}'
+      commands: []
+      name: TNT
+    MHF_Cactus:
+      message: '{consonant-message}'
+      commands: []
+      name: Cactus
+    MHF_Chest:
+      message: '{consonant-message}'
+      commands: []
+      name: Chest
+    MHF_Melon:
+      message: '{consonant-message}'
+      commands: []
+      name: Melon
+    MHF_TNT2:
+      message: '{consonant-message}'
+      commands: []
+      name: TNT
+    MHF_OakLog:
+      message: '{vowel-message}'
+      commands: []
+      name: Oak Log
+    MHF_ArrowUp:
+      message: '{vowel-message}'
+      commands: []
+      name: Arrow Pointing Up
+    MHF_ArrowDown:
+      message: '{vowel-message}'
+      commands: []
+      name: Arrow Pointing Down
+    MHF_ArrowRight:
+      message: '{vowel-message}'
+      commands: []
+      name: Arrow Pointing Right
+    MHF_ArrowLeft:
+      message: '{vowel-message}'
+      commands: []
+      name: Arrow Pointing Left
+    Thatsmusic99:
+      message: '{header} oh god it''s error, run'
+      name: ''
+      commands: []
+  textures:
+    7f3ca4f7c92dde3a77ec510a74ba8c2e8d0ec7b80f0e348cc6dddd6b458bd:
+      name: ???
+      message: '{header} what???'
+      commands: []
+  locations:
+    0x0y0zworld:
+      name: The Void

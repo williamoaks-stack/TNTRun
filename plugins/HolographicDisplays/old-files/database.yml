@@ -1,0 +1,8 @@
+welcome:
+  location: TNTRun_world, -239.513, 29.795, 284.352
+  lines:
+  - '&2Welcome To &4TNTRun'
+  - '&3You can edit this with &b/hd edit welcome'
+  - 'We hope you enjoy your new server'
+  - 'You can Edit anything you like, add more maps or kits'
+  - 'If you need any assistance just ask our support team' 

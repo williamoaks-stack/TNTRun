@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [2.4]
+
+### Changed
+- Updated to 1.18.1 
+- All plugins and main jar updated 
+
 ## [2.3]
 
 ### Changed
@@ -50,9 +56,7 @@ All notable changes to this project will be documented in this file.
 ### Added
 - Initial commit of pack to Github for version control
 
-### Changed
-- Nothing
-
+[2.4]: https://github.com/apexhosting/TNTRun/releases/tag/2.4
 [2.3]: https://github.com/apexhosting/TNTRun/releases/tag/2.3
 [2.2]: https://github.com/apexhosting/TNTRun/releases/tag/2.2
 [2.1]: https://github.com/apexhosting/TNTRun/releases/tag/2.1
