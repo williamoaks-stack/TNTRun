@@ -22,10 +22,13 @@ spawnpoint:
   y: 24.0
   z: -261.58486052529804
 spectatorspawn:
-  ==: Vector
-  x: 660.4362970836369
-  y: 33.23973033803447
-  z: -261.58486052529804
+  p1:
+    ==: Vector
+    x: 660.4362970836369
+    y: 33.23973033803447
+    z: -261.58486052529804
+  yaw: 0.0
+  pitch: 0.0
 maxPlayers: 15
 minPlayers: 2
 votePercent: 0.75
@@ -41,6 +44,7 @@ kits:
 punchDamage: true
 testmode: false
 excludeStats: false
+allowDoublejumps: true
 regenerationdelay: 60
 joinfee: 0.0
 finished: true

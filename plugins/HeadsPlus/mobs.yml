@@ -410,6 +410,3 @@ player:
   - '&7Price: &6{price}'
   - '&7Player: &a{player}'
   default: {}
-PIG_ZOMBIE:
-  default:
-    HP#pigzombie: {}

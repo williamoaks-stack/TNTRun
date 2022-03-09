@@ -1,3 +1,7 @@
+gamemode: SURVIVAL
+ondeath:
+  dropitems: true
+removearrows: false
 # TNTRun_reloaded configuration file     #
 #                                        #
 # The TNTRun_reloaded plugin             #
@@ -9,6 +13,7 @@ usexpbar:
   countdown: true
   timelimit: true
 parties:
+  usePartiesPlugin: false
   enabled: true
 invitationmessage:
   allowspectate: false
@@ -166,6 +171,8 @@ freedoublejumps:
   enabled: false
   amount: 10
 bungeecord:
+  teleporttohub: true
+  playorspectate: false
   randomarena: true
   useUUID: false
   enabled: false

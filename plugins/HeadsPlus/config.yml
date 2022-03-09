@@ -331,7 +331,6 @@ locale: en_us
 
 # Whether or not to enable smart locale.
 # This makes HeadsPlus automatically translate itself into a different language for each user depending on their chosen language.
-# However, 
 smart-locale: false
 
 # Whether or not /tellraw should be used to send messages.
@@ -413,5 +412,3 @@ plugin:
     update: {}
   autograb: {}
 mysql: {}
-blacklist:
-  default: {}
