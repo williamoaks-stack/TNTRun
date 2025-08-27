@@ -70,7 +70,7 @@ textmenus:
     description: Leírás
     permission: Permission
     further-usages: További felhasználások
-version: 1.7
+version: 1.8
 prefix: '&cHeadsPlus &8» &7'
 commands:
   debug:
@@ -244,6 +244,7 @@ descriptions:
     egy adott számot, egy entitás nevét, hogy eladja egy adott mob fejét, és mindent
     eladni minden fejét.
 event:
+  lost-money-no-killer: '{header} Mert meghaltál, elvesztette &c{price}&7!'
   cannot-craft-heads: '{header} Nem készíthet fejeket!'
   cannot-craft-heads-here: '{header} Itt nem lehet fejeket készíteni!'
   block-place-denied: '{header} Nem teheted le a fejeket!'

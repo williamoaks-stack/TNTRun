@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 184.3.203.94
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1755727270611
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1756329281502
+  login: 1756328785315
+money: '50.0'
+last-account-name: DinoWine
+lastlocation:
+  world: 87b6b1a1-9d11-4a75-9f7e-755a5663fcf9
+  world-name: TNTRun_world
+  x: -227.69999998807907
+  y: 86.0
+  z: 294.69999998807907
+  yaw: 52.75091552734375
+  pitch: 11.550154685974121
+logoutlocation:
+  world: 87b6b1a1-9d11-4a75-9f7e-755a5663fcf9
+  world-name: TNTRun_world
+  x: -231.93582947723704
+  y: 26.0
+  z: 294.6039722987705
+  yaw: -87.7972412109375
+  pitch: 13.800128936767578

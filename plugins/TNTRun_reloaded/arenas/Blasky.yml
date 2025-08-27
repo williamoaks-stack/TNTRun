@@ -43,7 +43,9 @@ kits:
   randomLinkedKit: true
 punchDamage: true
 testmode: false
-excludeStats: false
+stats:
+  enabled: true
+  minPlayers: 0
 allowDoublejumps: true
 regenerationdelay: 60
 joinfee: 0.0
@@ -51,6 +53,8 @@ finished: true
 spawnpoints: []
 commandOnStart: ''
 commandOnStop: ''
+displayfinalpositions: 3
+enableOnRestart: true
 shop:
   enabled: true
 reward:
@@ -59,12 +63,12 @@ reward:
   xp: 0
   command: []
 places:
-  second:
+  '2':
     minPlayers: 0
     money: 0
     xp: 0
     command: []
-  third:
+  '3':
     minPlayers: 0
     money: 0
     xp: 0

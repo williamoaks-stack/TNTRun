@@ -70,7 +70,7 @@ textmenus:
     description: Beschreibung
     permission: Genehmigung
     further-usages: Weitere Verwendung
-version: 1.7
+version: 1.8
 prefix: '&cHeadsPlus &8» &7'
 commands:
   debug:
@@ -252,6 +252,7 @@ descriptions:
   myhead: Erzeugt einen Kopf von deinem Spieler.
   sellhead: Verkauft Köpfe, entweder von Wesen, Menge oder in deiner Hand.
 event:
+  lost-money-no-killer: '{header} Weil Sie gestorben sind, haben Sie &c{price} &7verloren!'
   cannot-craft-heads: '{header} Sie können keine Köpfe herstellen!'
   cannot-craft-heads-here: '{header} Hier kann man keine Köpfe herstellen!'
   block-place-denied: '{header} Du kannst keine verkaufbaren Köpfe platzieren!'

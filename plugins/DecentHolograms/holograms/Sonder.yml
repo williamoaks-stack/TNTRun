@@ -1,0 +1,24 @@
+location: TNTRun_world:656.528:50.314:95.311
+enabled: true
+display-range: 4
+update-range: 4
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&0&kWorld updated for use by Apex.'
+    height: 0.3
+  - content: '&0&kThank you Robert B. for maintaining it 2020-2022'
+    height: 0.3
+  - content: '&0&kUpdated by Bob O. in 2025'
+    height: 0.3
+  - content: '&0&kThank you Santiago O. and Daniel P. for assistance in 2025.'
+    height: 0.3
+  - content: '&0&kThank you especially to the original author of the map’s public domain lobby.'
+    height: 0.3
+  - content: '&0&kAll I could find is that this lobby has been passed around without credit for a while.'
+    height: 0.3
+  - content: '&0&kI’m sorry we all forgot you.'
+    height: 0.3
+  actions: {}

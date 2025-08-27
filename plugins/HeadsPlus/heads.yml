@@ -5,7 +5,7 @@
 
 # Whether the plugin should add more heads included with updates.
 update-heads: true
-version: 3.5
+version: 4.1
 heads:
   wood_a:
     display-name: '&8❰ &6Wooden A &8❱'
@@ -1261,3 +1261,111 @@ heads:
   goat:
     display-name: '&8❰ &fGoat &8❱'
     texture: a662336d8ae092407e58f7cc80d20f20e7650357a454ce16e3307619a0110648
+  warden:
+    display-name: '&8❰ &9Warden &8❱'
+    texture: 6cf3674b2ddc0ef7c39e3b9c6b58677de5cf377d2eb073f2f3fe50919b1ca4c9
+    section: mobs
+  warm_frog:
+    display-name: '&8❰ &fWarm Frog &8❱'
+    texture: 1e9312b5b2bab9ad51ea4b6a407d6d390bb5043408757b976a7556898ac43de0
+    section: animals
+  temperate_frog:
+    display-name: '&8❰ &6Temperate Frog &8❱'
+    texture: 1f3e29dd947a177895f6121d2331b65ac3f896fda4bdd1151491e40b804952a7
+    section: animals
+  cold_frog:
+    display-name: '&8❰ &aCold Frog &8❱'
+    texture: 27bcccc125a4110434a85c40ada039d050f14ef7db34a3444067310f8ce69606
+    section: animals
+  allay:
+    display-name: '&8❰ &bAllay &8❱'
+    texture: e1c59dccde4b8535500dcf6794ca450663f607290e2510f6d8eb1e5eb71da5af
+    section: mobs
+  tadpole:
+    display-name: '&8❰ &7Tadpole &8❱'
+    texture: b23ebf26b7a441e10a86fb5c2a5f3b519258a5c5dddd6a1a75549f517332815b
+    section: animals
+  illusioner:
+    display-name: '&8❰ &9Illusioner &8❱'
+    texture: 512512e7d016a2343a7bff1a4cd15357ab851579f1389bd4e3a24cbeb88b
+    section: mobs
+  camel:
+    display-name: '&8❰ &eCamel &8❱'
+    texture: 92b31239520511ca7b6712ef0ecfb55b6c56b9347240f4cbf9925ce0bf0fa445
+    section: animals
+  sniffer:
+    display-name: '&8❰ &cSniffer &8❱'
+    texture: 3d6c9f43510cb90d24493e07b7cf8ca9f54132d09a257f20b7048022e3b1b707
+    section: animals
+  breeze:
+    display-name: '&8❰ &9Breeze &8❱'
+    texture: a275728af7e6a29c88125b675a39d88ae9919bb61fdc200337fed6ab0c49d65c
+    section: mobs
+  ashen_wolf:
+    display-name: '&8❰ &7Ashen Wolf &8❱'
+    texture: d39754f0cff419578ce94b5c88666d26d0275ff2cc713b6e3461b935baac844f
+    section: animals
+  black_wolf:
+    display-name: '&8❰ &7Black Wolf &8❱'
+    texture: 982f647315a78c4e10e40571a4b82996ef9e6d38b525f7ba770cdfe8eeedbac6
+    section: animals
+  chestnut_wolf:
+    display-name: '&8❰ &eChestnut Wolf &8❱'
+    texture: 351a0748ba0f7f0df4cde3d9b9edcb35db2273cd45b2191a5d2315cf8e756caf
+    section: animals
+  rusty_wolf:
+    display-name: '&8❰ &cRusty Wolf &8❱'
+    texture: b704777cc5363757a8637a17638eda83487b03615c999f12a2cd65358afe4a08
+    section: animals
+  striped_wolf:
+    display-name: '&8❰ &eStriped Wolf &8❱'
+    texture: bc46cf492aa556129f791e0bedc04964263b499760c988ae1740fe278c76e10a
+    section: animals
+  snowy_wolf:
+    display-name: '&8❰ &fSnowy Wolf &8❱'
+    texture: 44877e52d9361278a3736fcaaa5d70eb14785c1a995bdaba5de91ed886459ea8
+    section: animals
+  spotted_wolf:
+    display-name: '&8❰ &6Spotted Wolf &8❱'
+    texture: 98ec61fd9cbc4f663c3f849ea45383d43319c2c770a2f28b8c7a50975b81b3c9
+    section: animals
+  woods_wolf:
+    display-name: '&8❰ &6Woods Wolf &8❱'
+    texture: 6e8c2a6e104a3e9d7397326f01bf25862f0aaf9e3830d49dbb9b4a4305358404
+    section: animals
+  armadillo:
+    display-name: '&8❰ &cArmadillo &8❱'
+    texture: 541693d604ed8eb31f550d3c8b124ad3f0f4a34f5f83a72def177fce4ac90916
+    section: animals
+  bogged:
+    display-name: '&8❰ &aBogged &8❱'
+    texture: 7144d7bd1469593df59dce0cefb3afeaa54b8b3299cdbfc34b338bfb9ad2100
+    section: mobs
+  cold_cow:
+    display-name: '&8❰ &6Cow (Cold) &8❱'
+    texture: e33221484d39f0d4ecdffa729567ce77fa8ce05b091db76dd5b079a20f7bf339
+    section: animals
+  warm_cow:
+    display-name: '&8❰ &6Cow (Warm) &8❱'
+    texture: 23b3376faf281c14ba472d2e7f6b6d0169e4bc2374835a9f8d0788e04d81343d
+    section: animals
+  cold_pig:
+    display-name: '&8❰ &ePig (Cold) &8❱'
+    texture: ba18d4043cd6c903866788914fd534315281af9f259e34837e3e175e545c2ede
+    section: animals
+  warm_pig:
+    display-name: '&8❰ &6Pig (Warm) &8❱'
+    texture: 7beba1a2d56e84f8e51fed6659f2cb7c14fed43859af584737897bf70c039475
+    section: animals
+  cold_chicken:
+    display-name: '&8❰ &7Chicken (Cold) &8❱'
+    texture: a911fcd8b226a98f8b6d605ff27a88ed97230bb71678e4a00669095d69d3f2b4
+    section: animals
+  warm_chicken:
+    display-name: '&8❰ &eChicken (Warm) &8❱'
+    texture: 58c231bf464f9a6c6786a22a4d119ea5e5057624c5a391470d35fa2b6ffa5183
+    section: animals
+  creaking:
+    display-name: '&8❰ &7Creaking &8❱'
+    texture: aef009d86fcc420361a68cbb8bfa85a7422bfe9e2f306247be1e1b5d20fc52b1
+    section: mobs

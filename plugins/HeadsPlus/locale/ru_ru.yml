@@ -70,7 +70,7 @@ textmenus:
     description: Описание
     permission: разрешение
     further-usages: Дальнейшее использование
-version: 1.7
+version: 1.8
 prefix: '&cHeadsPlus &8» &7'
 commands:
   debug:
@@ -247,6 +247,7 @@ descriptions:
     определенное число, имя сущности, чтобы продать голову конкретного моба, и ALL,
     чтобы продать все головы.
 event:
+  lost-money-no-killer: '{header} Потому что ты умер, ты потерял &c{price}&7!'
   cannot-craft-heads: '{header} Вы не можете создавать головы!'
   cannot-craft-heads-here: '{header} Здесь нельзя лепить головы!'
   block-place-denied: '{header} Нельзя ставить продаваемые головы!'

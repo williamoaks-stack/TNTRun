@@ -1,0 +1,743 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 23
+npc:
+  '8':
+    metadata:
+      ambient-sound: 'null'
+      nameplate-visible: 'false'
+      silent-sounds: false
+    name: daisy
+    uuid: e88a0d57-1c3c-491e-aa1a-78721a680550
+    traits:
+      profession: BUTCHER
+      type: VILLAGER
+      spawned: true
+      commandtrait:
+        commands:
+          '0':
+            command: tr join Mersha
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      villagertrait:
+        level: 3
+        type: minecraft:desert
+      owner:
+        uuid: da46aa56-b125-41ee-b014-04809aa7a0ab
+      location:
+        bodyYaw: -0.4878769
+        world: TNTRun_world
+        x: -234.5691
+        y: 26.0
+        z: 283.5725
+        yaw: -0.4879
+        pitch: 0.0
+      lookclose:
+        range: 4.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: type,lookclose,scoreboardtrait,commandtrait,rotationtrait,owner,location,spawned,profession,villagertrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '9':
+    metadata:
+      cached-skin-uuid: 769913b3-649b-419b-87bf-c1d1ac9d38f2
+      cached-skin-uuid-name: peony
+      ambient-sound: 'null'
+      nameplate-visible: 'false'
+      silent-sounds: false
+    name: peony
+    uuid: 9864586f-1dfc-48d7-a742-167b08219008
+    traits:
+      profession: MASON
+      skintrait:
+        signature: AeD8+ZDqkfGcDthBWZYqE0Kjhst19RREQI0wPpw4IiaSw1YvRIinlSdW60eEKSLi12vvl75eSvXyK1gqjle4QlCdaustdcwwA1FSKotYtZruV0ZNYkY8Z6vz4hv5JyrMEL8UmzsHz5i9+mEgi9jDbsNqGB3mO1NIph31fKyFlQFDpZ6XSEykjlRhUCo9CvBxzahqlPaGu84vJOSxX72hr90NsbjiqmQux+i2bTqP6HolAC1umjB+CWOW/11On195cwscWRTDrE616qX82F668bja1gD7GtvVD4hNp6U+S3qVUi6ivCqEprz/pJlIEzpHmjYNN2zTgmtiALqU7ar48RqRu2zOt4hngDCmocPHbSlxHmgQZvCRWSXMXHrztizfN8b7Z0K88Agr6Rpyl3+/UQ12BGvx9ZW5LVNbej5hohsS+Od+ofN9cNAlS4RoNk7ea5NNjTISZjkTP89/cfWuxObfw5UzJdn3Y6wGmgR6NLyJC/A/P0ZaakLwcPin4xlEa1zX+3OOqRCU64vPz47bwnqEsjwhwqFx2334oamQkYOQ01irOydREDiLaYfVmNDSM37Ji1PJJ6Ib8axnUU4UWz39ycq8iAidyFWyJ2ipgCKbtjE0/Mf+NTITnNPjcEM0h8nyXQK9GgmPHBJ08EscmJ0nBP8vkmSi4TSH4DQ82+s=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc1NTEyMDM0MjY4NiwKICAicHJvZmlsZUlkIiA6ICI3Njk5MTNiMzY0OWI0MTliODdiZmMxZDFhYzlkMzhmMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJwZW9ueSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kYzBmY2ZhZjJhYTA0MGE4M2RjMGRlNGU1NjA1OGQxYmJiMmVhNDAxNTc1MDFmM2U3ZDE1ZGMyNDVlNDkzMDk1IgogICAgfQogIH0KfQ==
+      type: VILLAGER
+      spawned: true
+      commandtrait:
+        commands:
+          '0':
+            command: tr join Deslot
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      villagertrait:
+        level: 3
+        type: minecraft:plains
+      owner:
+        uuid: da46aa56-b125-41ee-b014-04809aa7a0ab
+      location:
+        bodyYaw: 17.965248
+        world: TNTRun_world
+        x: -230.365
+        y: 26.0
+        z: 282.4381
+        yaw: 17.9652
+        pitch: 0.0
+      lookclose:
+        range: 4.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: type,lookclose,skintrait,scoreboardtrait,commandtrait,rotationtrait,inventory,owner,location,spawned,profession,villagertrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '10':
+    metadata:
+      ambient-sound: 'null'
+      nameplate-visible: 'false'
+      silent-sounds: false
+    name: Tubular Terry
+    uuid: d86b6897-3fce-4408-b708-5febaec1c9cb
+    traits:
+      profession: FISHERMAN
+      skintrait: {}
+      type: VILLAGER
+      spawned: true
+      commandtrait:
+        commands:
+          '0':
+            command: tr join Tube
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      villagertrait:
+        level: 3
+        type: minecraft:desert
+      owner:
+        uuid: da46aa56-b125-41ee-b014-04809aa7a0ab
+      location:
+        bodyYaw: 33.885925
+        world: TNTRun_world
+        x: -228.3479
+        y: 26.0
+        z: 282.4658
+        yaw: 33.8859
+        pitch: 0.0
+      lookclose:
+        range: 4.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: type,lookclose,skintrait,scoreboardtrait,commandtrait,rotationtrait,inventory,owner,location,spawned,profession,villagertrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '14':
+    metadata:
+      ambient-sound: 'null'
+      nameplate-visible: 'false'
+      silent-sounds: false
+    name: Ollie
+    uuid: 3bf01760-6ea0-4904-b0d3-671b070ba6fe
+    traits:
+      type: VILLAGER
+      villagertrait:
+        level: 2
+        type: minecraft:savanna
+      owner:
+        uuid: da46aa56-b125-41ee-b014-04809aa7a0ab
+      spawned: true
+      location:
+        bodyYaw: -165.47543
+        world: TNTRun_world
+        x: -222.3477
+        y: 26.0
+        z: 307.4841
+        yaw: -165.4754
+        pitch: 0.0
+      profession: WEAPONSMITH
+      commandtrait:
+        commands:
+          '0':
+            command: tr join Oslow
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      lookclose:
+        range: 4.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: type,lookclose,scoreboardtrait,commandtrait,rotationtrait,owner,location,spawned,profession,villagertrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '12':
+    metadata:
+      ambient-sound: 'null'
+      nameplate-visible: 'false'
+      silent-sounds: false
+    name: Frost Jenny
+    uuid: 94c25be0-8035-4d82-9421-1a4529c513b4
+    traits:
+      type: VILLAGER
+      villagertrait:
+        level: 3
+        type: minecraft:taiga
+      owner:
+        uuid: da46aa56-b125-41ee-b014-04809aa7a0ab
+      spawned: true
+      location:
+        bodyYaw: 14.201447
+        world: TNTRun_world
+        x: -226.3603
+        y: 26.0
+        z: 282.4371
+        yaw: 14.2014
+        pitch: 0.0
+      commandtrait:
+        commands:
+          '0':
+            command: tr join Freeze
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      profession: LIBRARIAN
+      lookclose:
+        range: 4.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: type,lookclose,scoreboardtrait,commandtrait,rotationtrait,owner,location,spawned,profession,villagertrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '13':
+    metadata:
+      ambient-sound: 'null'
+      nameplate-visible: 'false'
+      silent-sounds: false
+    name: Dena Moe
+    uuid: 100642bd-52d1-49ed-90bd-0d9578a76b73
+    traits:
+      type: VILLAGER
+      villagertrait:
+        level: 3
+        type: minecraft:desert
+      owner:
+        uuid: da46aa56-b125-41ee-b014-04809aa7a0ab
+      spawned: true
+      location:
+        bodyYaw: 16.498993
+        world: TNTRun_world
+        x: -222.3306
+        y: 26.0
+        z: 283.4531
+        yaw: 16.499
+        pitch: 0.0
+      profession: TOOLSMITH
+      commandtrait:
+        commands:
+          '0':
+            command: tr join Dena
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      lookclose:
+        range: 4.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: type,lookclose,scoreboardtrait,commandtrait,rotationtrait,owner,location,spawned,profession,villagertrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '16':
+    metadata:
+      ambient-sound: 'null'
+      nameplate-visible: 'false'
+      silent-sounds: false
+    name: Azwan da Gweat
+    uuid: a934939c-f923-4da9-a3b7-77aeb378ba55
+    traits:
+      type: VILLAGER
+      villagertrait:
+        level: 2
+        type: minecraft:desert
+      owner:
+        uuid: da46aa56-b125-41ee-b014-04809aa7a0ab
+      spawned: true
+      location:
+        bodyYaw: -179.32875
+        world: TNTRun_world
+        x: -230.3171
+        y: 26.0
+        z: 308.4586
+        yaw: -179.3288
+        pitch: 0.0
+      commandtrait:
+        commands:
+          '0':
+            command: tr join Azwan
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      profession: CLERIC
+      lookclose:
+        range: 4.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: type,lookclose,scoreboardtrait,commandtrait,rotationtrait,owner,location,spawned,profession,villagertrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '17':
+    metadata:
+      ambient-sound: 'null'
+      nameplate-visible: 'false'
+      silent-sounds: false
+    name: Tabitha
+    uuid: 7e12b6e5-d825-4867-a45b-d484a959fe20
+    traits:
+      type: VILLAGER
+      villagertrait:
+        level: 2
+        type: minecraft:plains
+      owner:
+        uuid: da46aa56-b125-41ee-b014-04809aa7a0ab
+      spawned: true
+      location:
+        bodyYaw: -172.43187
+        world: TNTRun_world
+        x: -234.3192
+        y: 26.0
+        z: 307.4233
+        yaw: -172.4319
+        pitch: 0.0
+      commandtrait:
+        commands:
+          '0':
+            command: tr join Totem
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      profession: SHEPHERD
+      lookclose:
+        range: 4.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: type,lookclose,scoreboardtrait,commandtrait,rotationtrait,owner,location,spawned,profession,villagertrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '19':
+    metadata:
+      ambient-sound: 'null'
+      nameplate-visible: 'false'
+      silent-sounds: false
+    name: Greta
+    uuid: 0d5a9f36-81a8-49fc-9c45-4152625a5349
+    traits:
+      type: VILLAGER
+      villagertrait:
+        level: 4
+        type: minecraft:plains
+      owner:
+        uuid: da46aa56-b125-41ee-b014-04809aa7a0ab
+      spawned: true
+      location:
+        bodyYaw: 89.333954
+        world: TNTRun_world
+        x: -216.3591
+        y: 26.0
+        z: 289.472
+        yaw: 89.334
+        pitch: 0.0
+      profession: CLERIC
+      commandtrait:
+        commands:
+          '0':
+            command: tr join Cave
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      lookclose:
+        range: 4.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: type,lookclose,scoreboardtrait,commandtrait,rotationtrait,owner,location,spawned,profession,villagertrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '18':
+    metadata:
+      ambient-sound: 'null'
+      nameplate-visible: 'false'
+      silent-sounds: false
+    name: Binging with Blasky
+    uuid: e8d7b474-f685-47a0-b92b-57506c92ad93
+    traits:
+      type: VILLAGER
+      villagertrait:
+        level: 3
+        type: minecraft:savanna
+      hologramtrait: {}
+      owner:
+        uuid: da46aa56-b125-41ee-b014-04809aa7a0ab
+      spawned: true
+      location:
+        bodyYaw: -161.552
+        world: TNTRun_world
+        x: -226.34
+        y: 26.0
+        z: 308.4485
+        yaw: -161.552
+        pitch: 0.0
+      commandtrait:
+        commands:
+          '0':
+            command: tr join Blasky
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      profession: ARMORER
+      lookclose:
+        range: 4.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: type,lookclose,scoreboardtrait,commandtrait,hologramtrait,rotationtrait,owner,location,spawned,profession,villagertrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '22':
+    metadata:
+      ambient-sound: 'null'
+      nameplate-visible: 'false'
+      silent-sounds: false
+    name: QRNT
+    uuid: ef078a62-5265-4c06-bc66-23d2d19accde
+    traits:
+      type: VILLAGER
+      villagertrait:
+        level: 4
+      owner:
+        uuid: da46aa56-b125-41ee-b014-04809aa7a0ab
+      spawned: true
+      location:
+        bodyYaw: 75.11663
+        world: TNTRun_world
+        x: -216.3475
+        y: 26.0
+        z: 301.4548
+        yaw: 75.1166
+        pitch: 0.0
+      commandtrait:
+        commands:
+          '0':
+            command: tr join Quarent
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      profession: MASON
+      lookclose:
+        range: 4.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: type,lookclose,scoreboardtrait,commandtrait,rotationtrait,owner,location,spawned,profession,villagertrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '21':
+    metadata:
+      ambient-sound: 'null'
+      nameplate-visible: 'false'
+      silent-sounds: false
+    name: Norn
+    uuid: 64a92f48-a3e0-4c9e-be65-b3b70603801d
+    traits:
+      type: VILLAGER
+      villagertrait:
+        level: 4
+        type: minecraft:plains
+      owner:
+        uuid: da46aa56-b125-41ee-b014-04809aa7a0ab
+      spawned: true
+      location:
+        bodyYaw: 89.21542
+        world: TNTRun_world
+        x: -215.3647
+        y: 26.0
+        z: 297.4509
+        yaw: 89.2154
+        pitch: 0.0
+      commandtrait:
+        commands:
+          '0':
+            command: tr join Norlan
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      profession: FARMER
+      lookclose:
+        range: 4.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: type,lookclose,scoreboardtrait,commandtrait,rotationtrait,owner,location,spawned,profession,villagertrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '20':
+    metadata:
+      ambient-sound: 'null'
+      nameplate-visible: 'false'
+      silent-sounds: false
+    name: Gabby
+    uuid: b776136f-a215-4960-a7e1-2ecb083df0ef
+    traits:
+      type: VILLAGER
+      villagertrait:
+        level: 4
+        type: minecraft:taiga
+      owner:
+        uuid: da46aa56-b125-41ee-b014-04809aa7a0ab
+      spawned: true
+      location:
+        bodyYaw: 89.28531
+        world: TNTRun_world
+        x: -215.3691
+        y: 26.0
+        z: 293.4531
+        yaw: 89.2853
+        pitch: 0.0
+      profession: TOOLSMITH
+      commandtrait:
+        commands:
+          '0':
+            command: tr join Sezlot
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      lookclose:
+        range: 4.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: type,lookclose,scoreboardtrait,commandtrait,rotationtrait,owner,location,spawned,profession,villagertrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '23':
+    name: Miss You Buddy
+    uuid: 6c4c0c74-cb8a-4436-a459-f287d73f19fd
+    traits:
+      type: FOX
+      foxtrait:
+        faceplanted: true
+      owner:
+        uuid: da46aa56-b125-41ee-b014-04809aa7a0ab
+      spawned: true
+      location:
+        bodyYaw: 123.56824
+        world: TNTRun_world
+        x: -228.19
+        y: 87.0
+        z: 295.4683
+        yaw: 123.5682
+        pitch: 85.9585
+      commandtrait:
+        commands:
+          '0':
+            command: spawn
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+          '1':
+            command: gamemode survival
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      lookclose:
+        range: 10.0
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: type,lookclose,foxtrait,scoreboardtrait,commandtrait,rotationtrait,owner,location,spawned
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false

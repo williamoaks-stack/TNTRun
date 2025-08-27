@@ -1,7 +1,7 @@
 # HeadsPlus by Thatsmusic99 - Nederlands (Tepoloco)
 # Wijzig de versie niet! Dit wordt intern gebruikt in de plug-in om nieuwe berichten toe te voegen.
 language: Nederlands (NL)
-version: 1.7
+version: 1.8
 prefix: '&cHeadsPlus &8» &7'
 inventory:
   icon:
@@ -247,6 +247,7 @@ descriptions:
     te verkopen     nummer, entiteitsnaam om het hoofd van een bepaalde maffia te
     verkopen, en alles om elk hoofd te verkopen.
 event:
+  lost-money-no-killer: '{header} Omdat je stierf, verloor je &c{price}&7!'
   cannot-craft-heads: '{header} Je kunt geen hoofden maken!'
   cannot-craft-heads-here: '{header} Je kunt hier geen hoofden maken!'
   block-place-denied: '{header} Je kunt geen verkoopbare koppen plaatsen!'

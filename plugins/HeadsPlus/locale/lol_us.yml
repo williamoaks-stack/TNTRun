@@ -70,7 +70,7 @@ textmenus:
     description: uhh what
     permission: permy
     further-usages: how 2 but worse
-version: 1.7
+version: 1.8
 prefix: '&cHeadsPlus &8» &7'
 commands:
   debug:
@@ -233,6 +233,7 @@ descriptions:
   myhead: Givs u ur hed
   sellhead: Sells a hed in ur hands or wif teh givn cmd stuff
 event:
+  lost-money-no-killer: '{header} ok so u lost &c{price} &7cos ur bad B)'
   cannot-craft-heads: '{header} no crafty, only hugs'
   cannot-craft-heads-here: '{header} no crafty here, only hugs'
   block-place-denied: '{header} Nu dun do dat'

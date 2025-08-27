@@ -1,0 +1,33 @@
+location: TNTRun_world:-217.489:30.500:284.480
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&5&nTop Wins'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&4#1: %tntrun_leaderboard_wins_player_1%'
+    height: 0.3
+  - content: '&6#2: %tntrun_leaderboard_wins_player_2%'
+    height: 0.3
+  - content: '&e#3: %tntrun_leaderboard_wins_player_3%'
+    height: 0.3
+  - content: '&a#4: %tntrun_leaderboard_wins_player_4%'
+    height: 0.3
+  - content: '&9#5: %tntrun_leaderboard_wins_player_5%'
+    height: 0.3
+  - content: '&1#6: %tntrun_leaderboard_wins_player_6%'
+    height: 0.3
+  - content: '&b#7: %tntrun_leaderboard_wins_player_7%'
+    height: 0.3
+  - content: '&d#8: %tntrun_leaderboard_wins_player_8%'
+    height: 0.3
+  - content: '&f#9: %tntrun_leaderboard_wins_player_9%'
+    height: 0.3
+  - content: '&0#10: %tntrun_leaderboard_wins_player_10%'
+  actions: {}

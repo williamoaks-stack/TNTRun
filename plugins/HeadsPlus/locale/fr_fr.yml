@@ -70,7 +70,7 @@ textmenus:
     description: Description
     permission: Autorisation
     further-usages: Autres Usages
-version: 1.7
+version: 1.8
 prefix: '&cHeadsPlus &8» &7'
 commands:
   debug:
@@ -256,6 +256,7 @@ descriptions:
     vendre un nombre spécifique, nom d'entité vendre une entité spécifique, et "all"
     pour vendre tous les têtes.
 event:
+  lost-money-no-killer: '{header} Parce que tu es mort, tu as perdu &c{price}&7!'
   cannot-craft-heads: '{header} Vous ne pouvez pas fabriquer des têtes!'
   cannot-craft-heads-here: '{header} Vous ne pouvez pas fabriquer des têtes ici!'
   block-place-denied: '{header} Vous ne pouvez pas placer de têtes vendables!'

@@ -187,6 +187,11 @@ percentage-taken-off-victim: 0.05
 # Must be a value out of 100.
 percentage-of-balance-as-price: 0.05
 
+# Whether to remove money from the victim's balance if they have no killer.
+# Regardless of the "use-killer-balance" option, it will use the victim's
+# balance when setting a penalty.
+price-loss-requires-killer: true
+
 ###################
 #  Selling Heads  #
 ###################
@@ -200,6 +205,13 @@ use-sellhead-gui: true
 
 # Whether or not names in /sellhead should be case sensitive.
 case-sensitive-names: true
+
+####################
+#  Crafting Heads  #
+####################
+
+# The default amount of XP (plugin) gained when crafting a head.
+default-crafting-xp: 10
 
 ###########
 #  Masks  #
@@ -311,6 +323,9 @@ multiple-level-ups: false
 # Statistics are cached if you use the PlaceholderAPI expansion for HeadsPlus.
 cache-duration: 300
 
+# When using PlaceholderAPI, determines if stats and such that rely on MySQLare forced if not cached. This will cause lag if set to true and if the cache duration is too low.
+force-placeholders: true
+
 #############
 #  Updates  #
 #############
@@ -395,20 +410,3 @@ suppress-messages-during-search: false
 # By default, this adds a comma for every 1000$ and rounds to two decimal points.
 # Please do not swap the notation for this as Java doesn't like that, see the option below.
 price-decimal-format: '#,###.##'
-plugin:
-  perks:
-    interact: {}
-    drops: {}
-    pvp: {}
-    xp: {}
-  mechanics:
-    looting:
-      thresholds: {}
-    mythicmobs: {}
-    masks: {}
-    broadcasts: {}
-    boss-bar: {}
-    leaderboards: {}
-    update: {}
-  autograb: {}
-mysql: {}

@@ -70,7 +70,7 @@ textmenus:
     description: Opis
     permission: Uprawnienie
     further-usages: Dalsze zastosowania
-version: 1.7
+version: 1.8
 prefix: '&cHeadsPlus &8» &7'
 commands:
   debug:
@@ -249,6 +249,7 @@ descriptions:
     sprzedania konkretnej ilości, nazwy moba, aby sprzedać konkretne głowy i all,
     aby sprzedać wszystkie głowy.
 event:
+  lost-money-no-killer: '{header} Straciłeś &c{price}&7, ponieważ umarłeś!'
   cannot-craft-heads: '{header} Nie możesz tworzyć głów!'
   cannot-craft-heads-here: '{header} Nie możesz tu tworzyć głów!'
   block-place-denied: '{header} Nie możesz postawić głów, które da się sprzedać!'

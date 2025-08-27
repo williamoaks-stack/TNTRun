@@ -1,11 +1,25 @@
-
-# This configuration file has become more complex compared to previous versions.
-# If you have trouble understanding how it works, please use the /hp config mobs command instead.
 defaults:
+  # This configuration file has become more complex compared to previous versions.
+  # As an example, you can set up per-mob prices, chances, lore and display names using the following format:
+  # AXOLOTL:
+  #   default:
+  #     HP#lucy_axolotl: 
+  #       chance: 20
+  #       price: 100.0
+  #       display-name: 'lucy :3'
+  #       lore:
+  #       - so cute
+  #       - we love lucy
   lore:
   - '&7Price &8» &c{price}'
   - '&7Type &8» &c{type}'
   display-name: '{type} Head'
+ALLAY:
+  default:
+    HP#allay: {}
+ARMADILLO:
+  default:
+    HP#armadillo: {}
 AXOLOTL:
   default:
     HP#lucy_axolotl: {}
@@ -34,6 +48,15 @@ BEE:
 BLAZE:
   default:
     HP#blaze: {}
+BOGGED:
+  default:
+    HP#bogged: {}
+BREEZE:
+  default:
+    HP#breeze: {}
+CAMEL:
+  default:
+    HP#camel: {}
 CAT:
   default:
     HP#tabby_cat: {}
@@ -65,10 +88,22 @@ CAVE_SPIDER:
 CHICKEN:
   default:
     HP#chicken_mc: {}
+  TEMPERATE:
+    HP#chicken_mc: {}
+  COLD:
+    HP#cold_chicken: {}
+  WARM:
+    HP#warm_chicken: {}
 COD:
   default:
     HP#cod: {}
 COW:
+  TEMPERATE:
+    HP#cow: {}
+  COLD:
+    HP#cold_cow: {}
+  WARM:
+    HP#warm_cow: {}
   default:
     HP#cow: {}
 CREEPER:
@@ -107,6 +142,13 @@ FOX:
     HP#fox_mc: {}
   SNOW:
     HP#snow_fox: {}
+FROG:
+  TEMPERATE:
+    HP#temperate_frog: {}
+  COLD:
+    HP#cold_frog: {}
+  WARM:
+    HP#warm_frog: {}
 GHAST:
   default:
     HP#ghast: {}
@@ -126,20 +168,20 @@ HOGLIN:
 HORSE:
   default:
     HP#brown_horse: {}
-  WHITE:
-    HP#white_horse: {}
-  CREAMY:
-    HP#creamy_horse: {}
-  CHESTNUT:
-    HP#chestnut_horse: {}
-  BROWN:
-    HP#brown_horse: {}
   BLACK:
     HP#black_horse: {}
-  GRAY:
-    HP#gray_horse: {}
+  BROWN:
+    HP#brown_horse: {}
+  CHESTNUT:
+    HP#chestnut_horse: {}
+  CREAMY:
+    HP#creamy_horse: {}
   DARK_BROWN:
     HP#dark_brown_horse: {}
+  GRAY:
+    HP#gray_horse: {}
+  WHITE:
+    HP#white_horse: {}
 HUSK:
   default:
     HP#husk: {}
@@ -162,16 +204,16 @@ LLAMA:
 MAGMA_CUBE:
   default:
     HP#magma_cube: {}
-MULE:
-  default:
-    HP#mule: {}
-MUSHROOM_COW:
+MOOSHROOM:
   default:
     HP#red_mooshroom: {}
   RED:
     HP#red_mooshroom: {}
   BROWN:
     HP#brown_mooshroom: {}
+MULE:
+  default:
+    HP#mule: {}
 OCELOT:
   default:
     HP#ocelot: {}
@@ -215,6 +257,12 @@ PHANTOM:
   default:
     HP#phantom: {}
 PIG:
+  TEMPERATE:
+    HP#pig: {}
+  COLD:
+    HP#cold_pig: {}
+  WARM:
+    HP#warm_pig: {}
   default:
     HP#pig: {}
 PIGLIN:
@@ -235,20 +283,20 @@ PUFFERFISH:
 RABBIT:
   default:
     HP#brown_rabbit: {}
-  BROWN:
-    HP#brown_rabbit: {}
-  WHITE:
-    HP#white_rabbit: {}
   BLACK:
     HP#black_rabbit: {}
   BLACK_AND_WHITE:
     HP#black_and_white_rabbit: {}
+  BROWN:
+    HP#brown_rabbit: {}
   GOLD:
     HP#gold_rabbit: {}
   SALT_AND_PEPPER:
     HP#salt_and_pepper_rabbit: {}
   THE_KILLER_BUNNY:
     HP#the_killer_bunny_rabbit: {}
+  WHITE:
+    HP#white_rabbit: {}
 RAVAGER:
   default:
     HP#ravager: {}
@@ -305,7 +353,10 @@ SKELETON_HORSE:
 SLIME:
   default:
     HP#slime: {}
-SNOWMAN:
+SNIFFER:
+  default:
+    HP#sniffer: {}
+SNOW_GOLEM:
   default:
     HP#snowman: {}
 SPIDER:
@@ -322,6 +373,9 @@ STRIDER:
     HP#cold_strider: {}
   default:
     HP#strider: {}
+TADPOLE:
+  default:
+    HP#tadpole: {}
 TRADER_LLAMA:
   default: {}
   CREAMY: {}
@@ -359,6 +413,9 @@ VINDICATOR:
     HP#vindicator: {}
 WANDERING_TRADER:
   default: {}
+WARDEN:
+  default:
+    HP#warden: {}
 WITCH:
   default:
     HP#witch: {}
@@ -371,6 +428,24 @@ WITHER_SKELETON:
 WOLF:
   default:
     HP#wolf: {}
+  ASHEN:
+    HP#ashen_wolf: {}
+  BLACK:
+    HP#black_wolf: {}
+  CHESTNUT:
+    HP#chestnut_wolf: {}
+  PALE:
+    HP#wolf: {}
+  RUSTY:
+    HP#rusty_wolf: {}
+  SNOWY:
+    HP#snowy_wolf: {}
+  SPOTTED:
+    HP#spotted_wolf: {}
+  STRIPED:
+    HP#striped_wolf: {}
+  WOODS:
+    HP#woods_wolf: {}
 ZOGLIN:
   default:
     HP#zoglin: {}

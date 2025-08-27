@@ -1,0 +1,20 @@
+location: TNTRun_world:-228.356:29.000:282.460
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&eTube'
+    height: 0.3
+  - content: '&6%tntrun_player_count_Tube%/15&r &bPlayers'
+    height: 0.3
+  - content: 'Click to Join'
+    height: 0.3
+  actions:
+    LEFT:
+    - COMMAND:/tr join Tube
+    RIGHT:
+    - COMMAND:/tr join Tube

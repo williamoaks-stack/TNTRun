@@ -70,7 +70,7 @@ textmenus:
     description: Descriere
     permission: Permisiune
     further-usages: Utilizari ulterioare
-version: 1.7
+version: 1.8
 prefix: '&cHeadsPlus &8» &7'
 commands:
   debug:
@@ -246,6 +246,7 @@ descriptions:
     un anumit numar de capete, numele entitatii pentru a vinde capul unui anumit animal,
     si valoarea ''all'' pentru a vinde fiecare cap.
 event:
+  lost-money-no-killer: '{header} Pentru că ai murit, ai pierdut &c{price}&7!'
   cannot-craft-heads: '{header} Nu poți crea capete!'
   cannot-craft-heads-here: '{header} Nu poți crea capete aici!'
   block-place-denied: '{header} Nu poti sa-ti asezi capete!'

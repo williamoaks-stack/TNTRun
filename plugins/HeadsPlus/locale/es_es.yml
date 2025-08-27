@@ -70,7 +70,7 @@ textmenus:
     description: Descripción
     permission: Permiso
     further-usages: Usos adicionales
-version: 1.7
+version: 1.8
 prefix: '&cHeadsPlus &8» &7'
 commands:
   debug:
@@ -250,6 +250,7 @@ descriptions:
   sellhead: Vende la cabeza en tu mano, utiliza el parámetro numerico para la cantidad,
     el nombre de la entidad para un mob específico o All para venderlas todas.
 event:
+  lost-money-no-killer: '{header} ¡Porque moriste, perdiste &c{price}&7!'
   cannot-craft-heads: '{header} ¡No puedes fabricar cabezas!'
   cannot-craft-heads-here: '{header} ¡No puedes fabricar cabezas aquí!'
   block-place-denied: '{header} No puedes colocar cabezas vendibles.'

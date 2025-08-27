@@ -1,80 +1,80 @@
 arenas:
-  Norlan:
-    '0':
-      x: -215
-      y: 28
-      z: 296
-      world: TNTRun_world
   Sezlot:
     '0':
-      x: -215
-      y: 28
-      z: 293
+      x: -235
+      y: 61
+      z: 307
+      world: TNTRun_world
+  Norlan:
+    '0':
+      x: -241
+      y: 61
+      z: 300
       world: TNTRun_world
   Tube:
     '0':
-      x: -228
-      y: 28
-      z: 281
+      x: -230
+      y: 59
+      z: 302
       world: TNTRun_world
   Azwan:
     '0':
-      x: -230
-      y: 28
-      z: 309
+      x: -218
+      y: 61
+      z: 302
       world: TNTRun_world
   Deslot:
     '0':
-      x: -230
-      y: 28
-      z: 281
-      world: TNTRun_world
-  Cave:
-    '0':
-      x: -215
-      y: 28
-      z: 294
+      x: -241
+      y: 61
+      z: 290
       world: TNTRun_world
   Totem:
     '0':
+      x: -227
+      y: 59
+      z: 295
+      world: TNTRun_world
+  Cave:
+    '0':
       x: -229
-      y: 28
-      z: 309
+      y: 61
+      z: 282
       world: TNTRun_world
   Dena:
     '0':
-      x: -229
-      y: 28
-      z: 281
+      x: -216
+      y: 61
+      z: 296
       world: TNTRun_world
   Blasky:
     '0':
-      x: -227
-      y: 28
-      z: 309
+      x: -222
+      y: 61
+      z: 284
       world: TNTRun_world
   Quarent:
     '0':
-      x: -215
-      y: 28
-      z: 295
+      x: -222
+      y: 61
+      z: 306
       world: TNTRun_world
   Mersha:
     '0':
-      x: -231
-      y: 28
-      z: 281
+      x: -230
+      y: 59
+      z: 288
       world: TNTRun_world
   Freeze:
     '0':
-      x: -227
-      y: 28
-      z: 281
+      x: -238
+      y: 63
+      z: 285
       world: TNTRun_world
   Oslow:
     '0':
-      x: -228
-      y: 28
-      z: 309
+      x: -232
+      y: 59
+      z: 295
       world: TNTRun_world
 leaderboards: {}

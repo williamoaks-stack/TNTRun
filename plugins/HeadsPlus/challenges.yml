@@ -8,9 +8,6 @@ options:
 # You are able to easily add them using the /hp settings rewards command if you are unsure on how to configure this.
 rewards:
   default:
-    # The type of reward to use.
-    # Valid types include ECO, ADD_GROUP, REMOVE_GROUP, GIVE_ITEM AND RUN_COMMAND.
-    # GIVE_ITEM requires an additional config section called "item" with properties "material" and "amount".
     type: ECO
     base-value: 50
     base-xp: 20
