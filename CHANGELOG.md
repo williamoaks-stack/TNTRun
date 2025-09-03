@@ -25,6 +25,8 @@ Updated WorldGuard to 7.0.12.
 
 Replaced Join Signs in spawn with NPC Villagers and Holograms which provide the same player interactions and display the same information. 
 
+Added a basic hologram called "WINNERS" which displays the top 10 players in terms of arena wins.
+
 Added apex default permissions from Apex_Default_Permissions.txt, with the exception that the default rank can build since players are prevented from building anyways by worldguard for this gametype, and Members cannot use gsit commands since adding gsit seems unwise.  
 
 Added a few easter eggs for server owners to discover by flying around in creative or digging into the server files: The NPCs have funny names despite their nameplate being turned off; the old joinsigns are moved into an unused hollow space above the spawn; player heads for myself, daniel, and santiago exist in the world; a hologram named "Sonder" exists in the world which thanks the other people who helped me with this.
