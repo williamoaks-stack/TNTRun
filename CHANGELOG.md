@@ -7,7 +7,6 @@ Added Citizens version 2.0.35-b3595,
 Added DecentHolograms version 2.9.2, 
 Added LuckPerms version 5.5.11, 
 Added miniMOTD version 2.1.3.
-Added Grief Prevention version 16.18.4
 
 Updated Minecraft to 1.21.1, 
 Updated Paper to 1.21.1-133-ver/1.21.1@3cb8529, 
