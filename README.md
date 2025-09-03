@@ -5,13 +5,14 @@ TNT Run is a game where you run around in an arena and while running each block 
 https://apexminecrafthosting.com/tnt-run-server/
 
 ## Plugin List
+- [Citizens NPC](https://www.spigotmc.org/resources/citizens.13811/)
 - [Core Protect](https://www.spigotmc.org/resources/coreprotect.8631/)
+- [Decent Holograms](https://www.spigotmc.org/resources/decentholograms-1-8-1-21-8-papi-support-no-dependencies.96927/)
 - [Enhanced BalTop](https://www.spigotmc.org/resources/enhanced-baltop.20168/)
 - [EssentialsX](https://www.spigotmc.org/resources/essentialsx.9089/)
 - [HeadsPlus](https://www.spigotmc.org/resources/headsplus-1-8-x-1-16-x.40265/)
-- [Holographic Displays](https://dev.bukkit.org/projects/holographic-displays)
 - [Holographic-Scoreboard](https://www.spigotmc.org/resources/holographic-scoreboard.2700/)
-- [PermissionsEx](https://github.com/PEXPlugins/PermissionsEx)
+- [Luckperms](https://luckperms.net/)
 - [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/)
 - [ProtocolLib](https://www.spigotmc.org/resources/protocollib.1997/)
 - [TitleManager](https://www.spigotmc.org/resources/titlemanager.1049/)
