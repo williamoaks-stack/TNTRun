@@ -49,7 +49,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: type,lookclose,scoreboardtrait,commandtrait,rotationtrait,owner,location,spawned,profession,villagertrait
+    traitnames: spawned,rotationtrait,lookclose,location,type,owner,commandtrait,profession,scoreboardtrait,villagertrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -106,7 +106,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: type,lookclose,skintrait,scoreboardtrait,commandtrait,rotationtrait,inventory,owner,location,spawned,profession,villagertrait
+    traitnames: spawned,rotationtrait,lookclose,location,type,owner,commandtrait,skintrait,profession,inventory,scoreboardtrait,villagertrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -159,7 +159,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: type,lookclose,skintrait,scoreboardtrait,commandtrait,rotationtrait,inventory,owner,location,spawned,profession,villagertrait
+    traitnames: spawned,rotationtrait,lookclose,location,type,owner,commandtrait,skintrait,profession,inventory,scoreboardtrait,villagertrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -211,7 +211,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: type,lookclose,scoreboardtrait,commandtrait,rotationtrait,owner,location,spawned,profession,villagertrait
+    traitnames: spawned,rotationtrait,lookclose,location,type,owner,commandtrait,profession,scoreboardtrait,villagertrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -263,7 +263,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: type,lookclose,scoreboardtrait,commandtrait,rotationtrait,owner,location,spawned,profession,villagertrait
+    traitnames: spawned,rotationtrait,lookclose,location,type,owner,commandtrait,profession,scoreboardtrait,villagertrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -315,7 +315,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: type,lookclose,scoreboardtrait,commandtrait,rotationtrait,owner,location,spawned,profession,villagertrait
+    traitnames: spawned,rotationtrait,lookclose,location,type,owner,commandtrait,profession,scoreboardtrait,villagertrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -367,7 +367,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: type,lookclose,scoreboardtrait,commandtrait,rotationtrait,owner,location,spawned,profession,villagertrait
+    traitnames: spawned,rotationtrait,lookclose,location,type,owner,commandtrait,profession,scoreboardtrait,villagertrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -419,7 +419,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: type,lookclose,scoreboardtrait,commandtrait,rotationtrait,owner,location,spawned,profession,villagertrait
+    traitnames: spawned,rotationtrait,lookclose,location,type,owner,commandtrait,profession,scoreboardtrait,villagertrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -471,7 +471,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: type,lookclose,scoreboardtrait,commandtrait,rotationtrait,owner,location,spawned,profession,villagertrait
+    traitnames: spawned,rotationtrait,lookclose,location,type,owner,commandtrait,profession,scoreboardtrait,villagertrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -524,7 +524,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: type,lookclose,scoreboardtrait,commandtrait,hologramtrait,rotationtrait,owner,location,spawned,profession,villagertrait
+    traitnames: spawned,rotationtrait,lookclose,location,hologramtrait,type,owner,commandtrait,profession,scoreboardtrait,villagertrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -575,7 +575,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: type,lookclose,scoreboardtrait,commandtrait,rotationtrait,owner,location,spawned,profession,villagertrait
+    traitnames: spawned,rotationtrait,lookclose,location,type,owner,commandtrait,profession,scoreboardtrait,villagertrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -627,7 +627,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: type,lookclose,scoreboardtrait,commandtrait,rotationtrait,owner,location,spawned,profession,villagertrait
+    traitnames: spawned,rotationtrait,lookclose,location,type,owner,commandtrait,profession,scoreboardtrait,villagertrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -679,7 +679,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: type,lookclose,scoreboardtrait,commandtrait,rotationtrait,owner,location,spawned,profession,villagertrait
+    traitnames: spawned,rotationtrait,lookclose,location,type,owner,commandtrait,profession,scoreboardtrait,villagertrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -736,7 +736,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: type,lookclose,foxtrait,scoreboardtrait,commandtrait,rotationtrait,owner,location,spawned
+    traitnames: spawned,rotationtrait,lookclose,location,type,owner,commandtrait,foxtrait,scoreboardtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
